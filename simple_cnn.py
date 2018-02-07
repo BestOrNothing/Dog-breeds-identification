@@ -46,7 +46,7 @@ num_iterations = 30
 
 #We upload all the packages we need
 # get_ipython().magic('matplotlib inline')
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import tensorflow as tf
 import numpy as np
 import time
@@ -746,11 +746,15 @@ def optimize(num_iterations, X):
     # Print the time-usage.
     print("Time usage: " + str(timedelta(seconds=int(round(time_dif)))))
     
-    plt.plot(acc['train'], label='Training acc')
-    plt.plot(acc['validation'], label='Validation acc')
-    plt.legend()
-    _ = plt.ylim()
-    plt.savefig('./curves.pdf')
+    #######################################################
+    # plt.plot(acc['train'], label='Training acc')        #
+    # plt.plot(acc['validation'], label='Validation acc') #
+    # plt.legend()                                        #
+    # _ = plt.ylim()                                      #
+    # plt.savefig('./curves.pdf')                         #
+    #######################################################
+    np.save('acc_train', acc['train'])
+    np.save('acc_valid', acc['validation'])
 
 
 # In[52]:
