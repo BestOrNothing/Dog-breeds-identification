@@ -1,0 +1,1126 @@
+Training set: ./train.p
+- Number of images remaining after selecting the 120 main breeds : (10222,)
+- The shape of train_filtered dataset is : (10222, 60, 60, 3)
+Nber SubVariables 120
+Shape : (10222, 120)
+Breed 0 : affenpinscher
+Breed 1 : afghan_hound
+Breed 2 : african_hunting_dog
+Breed 3 : airedale
+Breed 4 : american_staffordshire_terrier
+Breed 5 : appenzeller
+Breed 6 : australian_terrier
+Breed 7 : basenji
+Breed 8 : basset
+Breed 9 : beagle
+Breed 10 : bedlington_terrier
+Breed 11 : bernese_mountain_dog
+Breed 12 : black-and-tan_coonhound
+Breed 13 : blenheim_spaniel
+Breed 14 : bloodhound
+Breed 15 : bluetick
+Breed 16 : border_collie
+Breed 17 : border_terrier
+Breed 18 : borzoi
+Breed 19 : boston_bull
+Breed 20 : bouvier_des_flandres
+Breed 21 : boxer
+Breed 22 : brabancon_griffon
+Breed 23 : briard
+Breed 24 : brittany_spaniel
+Breed 25 : bull_mastiff
+Breed 26 : cairn
+Breed 27 : cardigan
+Breed 28 : chesapeake_bay_retriever
+Breed 29 : chihuahua
+Breed 30 : chow
+Breed 31 : clumber
+Breed 32 : cocker_spaniel
+Breed 33 : collie
+Breed 34 : curly-coated_retriever
+Breed 35 : dandie_dinmont
+Breed 36 : dhole
+Breed 37 : dingo
+Breed 38 : doberman
+Breed 39 : english_foxhound
+Breed 40 : english_setter
+Breed 41 : english_springer
+Breed 42 : entlebucher
+Breed 43 : eskimo_dog
+Breed 44 : flat-coated_retriever
+Breed 45 : french_bulldog
+Breed 46 : german_shepherd
+Breed 47 : german_short-haired_pointer
+Breed 48 : giant_schnauzer
+Breed 49 : golden_retriever
+Breed 50 : gordon_setter
+Breed 51 : great_dane
+Breed 52 : great_pyrenees
+Breed 53 : greater_swiss_mountain_dog
+Breed 54 : groenendael
+Breed 55 : ibizan_hound
+Breed 56 : irish_setter
+Breed 57 : irish_terrier
+Breed 58 : irish_water_spaniel
+Breed 59 : irish_wolfhound
+Breed 60 : italian_greyhound
+Breed 61 : japanese_spaniel
+Breed 62 : keeshond
+Breed 63 : kelpie
+Breed 64 : kerry_blue_terrier
+Breed 65 : komondor
+Breed 66 : kuvasz
+Breed 67 : labrador_retriever
+Breed 68 : lakeland_terrier
+Breed 69 : leonberg
+Breed 70 : lhasa
+Breed 71 : malamute
+Breed 72 : malinois
+Breed 73 : maltese_dog
+Breed 74 : mexican_hairless
+Breed 75 : miniature_pinscher
+Breed 76 : miniature_poodle
+Breed 77 : miniature_schnauzer
+Breed 78 : newfoundland
+Breed 79 : norfolk_terrier
+Breed 80 : norwegian_elkhound
+Breed 81 : norwich_terrier
+Breed 82 : old_english_sheepdog
+Breed 83 : otterhound
+Breed 84 : papillon
+Breed 85 : pekinese
+Breed 86 : pembroke
+Breed 87 : pomeranian
+Breed 88 : pug
+Breed 89 : redbone
+Breed 90 : rhodesian_ridgeback
+Breed 91 : rottweiler
+Breed 92 : saint_bernard
+Breed 93 : saluki
+Breed 94 : samoyed
+Breed 95 : schipperke
+Breed 96 : scotch_terrier
+Breed 97 : scottish_deerhound
+Breed 98 : sealyham_terrier
+Breed 99 : shetland_sheepdog
+Breed 100 : shih-tzu
+Breed 101 : siberian_husky
+Breed 102 : silky_terrier
+Breed 103 : soft-coated_wheaten_terrier
+Breed 104 : staffordshire_bullterrier
+Breed 105 : standard_poodle
+Breed 106 : standard_schnauzer
+Breed 107 : sussex_spaniel
+Breed 108 : tibetan_mastiff
+Breed 109 : tibetan_terrier
+Breed 110 : toy_poodle
+Breed 111 : toy_terrier
+Breed 112 : vizsla
+Breed 113 : walker_hound
+Breed 114 : weimaraner
+Breed 115 : welsh_springer_spaniel
+Breed 116 : west_highland_white_terrier
+Breed 117 : whippet
+Breed 118 : wire-haired_fox_terrier
+Breed 119 : yorkshire_terrier
+Iteration:     10, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:     20, Training Accuracy:   2.0%, Validation Accuracy:   0.7%
+Iteration:     30, Training Accuracy:   0.0%, Validation Accuracy:   0.8%
+Iteration:     40, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:     50, Training Accuracy:   2.0%, Validation Accuracy:   0.8%
+Iteration:     60, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:     70, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:     80, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:     90, Training Accuracy:   0.0%, Validation Accuracy:   1.0%
+Iteration:    100, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:    110, Training Accuracy:   0.0%, Validation Accuracy:   0.8%
+Iteration:    120, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:    130, Training Accuracy:   0.0%, Validation Accuracy:   0.8%
+Iteration:    140, Training Accuracy:   0.0%, Validation Accuracy:   1.0%
+Iteration:    150, Training Accuracy:   0.0%, Validation Accuracy:   1.1%
+Iteration:    160, Training Accuracy:   4.0%, Validation Accuracy:   1.0%
+Iteration:    170, Training Accuracy:   0.0%, Validation Accuracy:   1.0%
+Iteration:    180, Training Accuracy:   4.0%, Validation Accuracy:   0.9%
+Iteration:    190, Training Accuracy:   0.0%, Validation Accuracy:   0.7%
+Iteration:    200, Training Accuracy:   0.0%, Validation Accuracy:   0.8%
+Iteration:    210, Training Accuracy:   2.0%, Validation Accuracy:   1.0%
+Iteration:    220, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:    230, Training Accuracy:   2.0%, Validation Accuracy:   0.9%
+Iteration:    240, Training Accuracy:   0.0%, Validation Accuracy:   0.8%
+Iteration:    250, Training Accuracy:   0.0%, Validation Accuracy:   1.0%
+Iteration:    260, Training Accuracy:   2.0%, Validation Accuracy:   1.0%
+Iteration:    270, Training Accuracy:   2.0%, Validation Accuracy:   1.0%
+Iteration:    280, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:    290, Training Accuracy:   2.0%, Validation Accuracy:   0.9%
+Iteration:    300, Training Accuracy:   2.0%, Validation Accuracy:   0.7%
+Iteration:    310, Training Accuracy:   0.0%, Validation Accuracy:   0.7%
+Iteration:    320, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:    330, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:    340, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:    350, Training Accuracy:   0.0%, Validation Accuracy:   1.0%
+Iteration:    360, Training Accuracy:   0.0%, Validation Accuracy:   1.0%
+Iteration:    370, Training Accuracy:   4.0%, Validation Accuracy:   1.3%
+Iteration:    380, Training Accuracy:   2.0%, Validation Accuracy:   0.9%
+Iteration:    390, Training Accuracy:   0.0%, Validation Accuracy:   1.0%
+Iteration:    400, Training Accuracy:   0.0%, Validation Accuracy:   1.2%
+Iteration:    410, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:    420, Training Accuracy:   0.0%, Validation Accuracy:   0.7%
+Iteration:    430, Training Accuracy:   0.0%, Validation Accuracy:   0.8%
+Iteration:    440, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:    450, Training Accuracy:   2.0%, Validation Accuracy:   1.0%
+Iteration:    460, Training Accuracy:   0.0%, Validation Accuracy:   1.1%
+Iteration:    470, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:    480, Training Accuracy:   0.0%, Validation Accuracy:   1.0%
+Iteration:    490, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:    500, Training Accuracy:   0.0%, Validation Accuracy:   1.0%
+Iteration:    510, Training Accuracy:   4.0%, Validation Accuracy:   1.0%
+Iteration:    520, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:    530, Training Accuracy:   2.0%, Validation Accuracy:   1.0%
+Iteration:    540, Training Accuracy:   2.0%, Validation Accuracy:   1.0%
+Iteration:    550, Training Accuracy:   2.0%, Validation Accuracy:   1.1%
+Iteration:    560, Training Accuracy:   0.0%, Validation Accuracy:   1.1%
+Iteration:    570, Training Accuracy:   4.0%, Validation Accuracy:   1.0%
+Iteration:    580, Training Accuracy:   2.0%, Validation Accuracy:   1.1%
+Iteration:    590, Training Accuracy:   0.0%, Validation Accuracy:   1.4%
+Iteration:    600, Training Accuracy:   0.0%, Validation Accuracy:   1.3%
+Iteration:    610, Training Accuracy:   2.0%, Validation Accuracy:   1.3%
+Iteration:    620, Training Accuracy:   4.0%, Validation Accuracy:   1.0%
+Iteration:    630, Training Accuracy:   4.0%, Validation Accuracy:   1.0%
+Iteration:    640, Training Accuracy:   0.0%, Validation Accuracy:   0.9%
+Iteration:    650, Training Accuracy:   0.0%, Validation Accuracy:   1.0%
+Iteration:    660, Training Accuracy:   2.0%, Validation Accuracy:   1.0%
+Iteration:    670, Training Accuracy:   0.0%, Validation Accuracy:   1.0%
+Iteration:    680, Training Accuracy:   0.0%, Validation Accuracy:   1.1%
+Iteration:    690, Training Accuracy:   2.0%, Validation Accuracy:   1.1%
+Iteration:    700, Training Accuracy:   0.0%, Validation Accuracy:   1.0%
+Iteration:    710, Training Accuracy:   2.0%, Validation Accuracy:   1.0%
+Iteration:    720, Training Accuracy:   0.0%, Validation Accuracy:   1.0%
+Iteration:    730, Training Accuracy:   0.0%, Validation Accuracy:   1.2%
+Iteration:    740, Training Accuracy:   0.0%, Validation Accuracy:   1.4%
+Iteration:    750, Training Accuracy:   2.0%, Validation Accuracy:   1.6%
+Iteration:    760, Training Accuracy:   0.0%, Validation Accuracy:   1.3%
+Iteration:    770, Training Accuracy:   0.0%, Validation Accuracy:   1.4%
+Iteration:    780, Training Accuracy:   0.0%, Validation Accuracy:   1.4%
+Iteration:    790, Training Accuracy:   2.0%, Validation Accuracy:   1.4%
+Iteration:    800, Training Accuracy:   0.0%, Validation Accuracy:   1.4%
+Iteration:    810, Training Accuracy:   0.0%, Validation Accuracy:   1.3%
+Iteration:    820, Training Accuracy:   0.0%, Validation Accuracy:   1.4%
+Iteration:    830, Training Accuracy:   4.0%, Validation Accuracy:   1.7%
+Iteration:    840, Training Accuracy:   0.0%, Validation Accuracy:   1.6%
+Iteration:    850, Training Accuracy:   0.0%, Validation Accuracy:   1.6%
+Iteration:    860, Training Accuracy:   2.0%, Validation Accuracy:   1.6%
+Iteration:    870, Training Accuracy:   8.0%, Validation Accuracy:   1.4%
+Iteration:    880, Training Accuracy:   2.0%, Validation Accuracy:   1.6%
+Iteration:    890, Training Accuracy:   4.0%, Validation Accuracy:   1.3%
+Iteration:    900, Training Accuracy:   2.0%, Validation Accuracy:   1.4%
+Iteration:    910, Training Accuracy:   2.0%, Validation Accuracy:   1.2%
+Iteration:    920, Training Accuracy:   0.0%, Validation Accuracy:   1.1%
+Iteration:    930, Training Accuracy:   0.0%, Validation Accuracy:   1.3%
+Iteration:    940, Training Accuracy:   4.0%, Validation Accuracy:   1.4%
+Iteration:    950, Training Accuracy:   0.0%, Validation Accuracy:   1.5%
+Iteration:    960, Training Accuracy:   2.0%, Validation Accuracy:   1.4%
+Iteration:    970, Training Accuracy:   2.0%, Validation Accuracy:   1.3%
+Iteration:    980, Training Accuracy:   2.0%, Validation Accuracy:   1.5%
+Iteration:    990, Training Accuracy:   2.0%, Validation Accuracy:   1.4%
+Iteration:   1000, Training Accuracy:   2.0%, Validation Accuracy:   1.3%
+Iteration:   1010, Training Accuracy:   0.0%, Validation Accuracy:   1.5%
+Iteration:   1020, Training Accuracy:   0.0%, Validation Accuracy:   1.6%
+Iteration:   1030, Training Accuracy:   0.0%, Validation Accuracy:   1.5%
+Iteration:   1040, Training Accuracy:   2.0%, Validation Accuracy:   1.4%
+Iteration:   1050, Training Accuracy:   0.0%, Validation Accuracy:   1.4%
+Iteration:   1060, Training Accuracy:   2.0%, Validation Accuracy:   1.5%
+Iteration:   1070, Training Accuracy:   0.0%, Validation Accuracy:   1.6%
+Iteration:   1080, Training Accuracy:   4.0%, Validation Accuracy:   1.6%
+Iteration:   1090, Training Accuracy:   6.0%, Validation Accuracy:   1.5%
+Iteration:   1100, Training Accuracy:   4.0%, Validation Accuracy:   1.8%
+Iteration:   1110, Training Accuracy:   2.0%, Validation Accuracy:   1.9%
+Iteration:   1120, Training Accuracy:   4.0%, Validation Accuracy:   2.3%
+Iteration:   1130, Training Accuracy:   0.0%, Validation Accuracy:   1.9%
+Iteration:   1140, Training Accuracy:   4.0%, Validation Accuracy:   2.2%
+Iteration:   1150, Training Accuracy:   0.0%, Validation Accuracy:   1.9%
+Iteration:   1160, Training Accuracy:   2.0%, Validation Accuracy:   1.9%
+Iteration:   1170, Training Accuracy:   2.0%, Validation Accuracy:   1.7%
+Iteration:   1180, Training Accuracy:   0.0%, Validation Accuracy:   2.0%
+Iteration:   1190, Training Accuracy:   2.0%, Validation Accuracy:   2.5%
+Iteration:   1200, Training Accuracy:   2.0%, Validation Accuracy:   2.8%
+Iteration:   1210, Training Accuracy:   0.0%, Validation Accuracy:   2.5%
+Iteration:   1220, Training Accuracy:   2.0%, Validation Accuracy:   2.4%
+Iteration:   1230, Training Accuracy:   4.0%, Validation Accuracy:   2.4%
+Iteration:   1240, Training Accuracy:   2.0%, Validation Accuracy:   2.3%
+Iteration:   1250, Training Accuracy:   0.0%, Validation Accuracy:   2.4%
+Iteration:   1260, Training Accuracy:   0.0%, Validation Accuracy:   2.4%
+Iteration:   1270, Training Accuracy:   2.0%, Validation Accuracy:   2.5%
+Iteration:   1280, Training Accuracy:   4.0%, Validation Accuracy:   2.7%
+Iteration:   1290, Training Accuracy:   0.0%, Validation Accuracy:   2.6%
+Iteration:   1300, Training Accuracy:   0.0%, Validation Accuracy:   2.2%
+Iteration:   1310, Training Accuracy:   0.0%, Validation Accuracy:   2.4%
+Iteration:   1320, Training Accuracy:   4.0%, Validation Accuracy:   2.1%
+Iteration:   1330, Training Accuracy:   0.0%, Validation Accuracy:   2.2%
+Iteration:   1340, Training Accuracy:   6.0%, Validation Accuracy:   2.0%
+Iteration:   1350, Training Accuracy:   4.0%, Validation Accuracy:   2.2%
+Iteration:   1360, Training Accuracy:   6.0%, Validation Accuracy:   2.3%
+Iteration:   1370, Training Accuracy:   0.0%, Validation Accuracy:   2.2%
+Iteration:   1380, Training Accuracy:   0.0%, Validation Accuracy:   2.2%
+Iteration:   1390, Training Accuracy:   4.0%, Validation Accuracy:   2.2%
+Iteration:   1400, Training Accuracy:   4.0%, Validation Accuracy:   2.4%
+Iteration:   1410, Training Accuracy:   2.0%, Validation Accuracy:   2.4%
+Iteration:   1420, Training Accuracy:   0.0%, Validation Accuracy:   2.4%
+Iteration:   1430, Training Accuracy:   6.0%, Validation Accuracy:   2.5%
+Iteration:   1440, Training Accuracy:   4.0%, Validation Accuracy:   2.7%
+Iteration:   1450, Training Accuracy:   2.0%, Validation Accuracy:   2.8%
+Iteration:   1460, Training Accuracy:   2.0%, Validation Accuracy:   3.1%
+Iteration:   1470, Training Accuracy:   0.0%, Validation Accuracy:   2.8%
+Iteration:   1480, Training Accuracy:   0.0%, Validation Accuracy:   2.7%
+Iteration:   1490, Training Accuracy:   6.0%, Validation Accuracy:   2.8%
+Iteration:   1500, Training Accuracy:   8.0%, Validation Accuracy:   2.6%
+Iteration:   1510, Training Accuracy:   2.0%, Validation Accuracy:   2.2%
+Iteration:   1520, Training Accuracy:   8.0%, Validation Accuracy:   2.6%
+Iteration:   1530, Training Accuracy:   2.0%, Validation Accuracy:   2.5%
+Iteration:   1540, Training Accuracy:   2.0%, Validation Accuracy:   2.4%
+Iteration:   1550, Training Accuracy:   4.0%, Validation Accuracy:   2.9%
+Iteration:   1560, Training Accuracy:   4.0%, Validation Accuracy:   3.1%
+Iteration:   1570, Training Accuracy:   4.0%, Validation Accuracy:   3.0%
+Iteration:   1580, Training Accuracy:   2.0%, Validation Accuracy:   3.2%
+Iteration:   1590, Training Accuracy:  10.0%, Validation Accuracy:   3.0%
+Iteration:   1600, Training Accuracy:   2.0%, Validation Accuracy:   2.9%
+Iteration:   1610, Training Accuracy:   0.0%, Validation Accuracy:   3.1%
+Iteration:   1620, Training Accuracy:   0.0%, Validation Accuracy:   2.9%
+Iteration:   1630, Training Accuracy:   0.0%, Validation Accuracy:   2.5%
+Iteration:   1640, Training Accuracy:   6.0%, Validation Accuracy:   2.9%
+Iteration:   1650, Training Accuracy:   6.0%, Validation Accuracy:   2.7%
+Iteration:   1660, Training Accuracy:   0.0%, Validation Accuracy:   2.9%
+Iteration:   1670, Training Accuracy:   2.0%, Validation Accuracy:   3.3%
+Iteration:   1680, Training Accuracy:   2.0%, Validation Accuracy:   3.5%
+Iteration:   1690, Training Accuracy:   0.0%, Validation Accuracy:   3.1%
+Iteration:   1700, Training Accuracy:   0.0%, Validation Accuracy:   3.0%
+Iteration:   1710, Training Accuracy:   8.0%, Validation Accuracy:   3.3%
+Iteration:   1720, Training Accuracy:   6.0%, Validation Accuracy:   3.3%
+Iteration:   1730, Training Accuracy:   6.0%, Validation Accuracy:   3.3%
+Iteration:   1740, Training Accuracy:   2.0%, Validation Accuracy:   3.4%
+Iteration:   1750, Training Accuracy:   4.0%, Validation Accuracy:   3.3%
+Iteration:   1760, Training Accuracy:   8.0%, Validation Accuracy:   3.4%
+Iteration:   1770, Training Accuracy:   6.0%, Validation Accuracy:   3.5%
+Iteration:   1780, Training Accuracy:   4.0%, Validation Accuracy:   3.3%
+Iteration:   1790, Training Accuracy:   6.0%, Validation Accuracy:   3.8%
+Iteration:   1800, Training Accuracy:   8.0%, Validation Accuracy:   3.5%
+Iteration:   1810, Training Accuracy:   0.0%, Validation Accuracy:   3.4%
+Iteration:   1820, Training Accuracy:   0.0%, Validation Accuracy:   3.8%
+Iteration:   1830, Training Accuracy:   2.0%, Validation Accuracy:   3.8%
+Iteration:   1840, Training Accuracy:   8.0%, Validation Accuracy:   3.6%
+Iteration:   1850, Training Accuracy:   0.0%, Validation Accuracy:   3.5%
+Iteration:   1860, Training Accuracy:   2.0%, Validation Accuracy:   3.5%
+Iteration:   1870, Training Accuracy:   4.0%, Validation Accuracy:   3.9%
+Iteration:   1880, Training Accuracy:   2.0%, Validation Accuracy:   3.6%
+Iteration:   1890, Training Accuracy:   6.0%, Validation Accuracy:   3.8%
+Iteration:   1900, Training Accuracy:   0.0%, Validation Accuracy:   3.5%
+Iteration:   1910, Training Accuracy:   0.0%, Validation Accuracy:   3.5%
+Iteration:   1920, Training Accuracy:   0.0%, Validation Accuracy:   3.7%
+Iteration:   1930, Training Accuracy:   2.0%, Validation Accuracy:   4.0%
+Iteration:   1940, Training Accuracy:   4.0%, Validation Accuracy:   3.8%
+Iteration:   1950, Training Accuracy:   8.0%, Validation Accuracy:   4.0%
+Iteration:   1960, Training Accuracy:   4.0%, Validation Accuracy:   4.0%
+Iteration:   1970, Training Accuracy:   4.0%, Validation Accuracy:   3.9%
+Iteration:   1980, Training Accuracy:   6.0%, Validation Accuracy:   3.9%
+Iteration:   1990, Training Accuracy:   2.0%, Validation Accuracy:   4.0%
+Iteration:   2000, Training Accuracy:  10.0%, Validation Accuracy:   3.8%
+Iteration:   2010, Training Accuracy:   6.0%, Validation Accuracy:   4.1%
+Iteration:   2020, Training Accuracy:   4.0%, Validation Accuracy:   3.9%
+Iteration:   2030, Training Accuracy:   2.0%, Validation Accuracy:   3.7%
+Iteration:   2040, Training Accuracy:   6.0%, Validation Accuracy:   3.8%
+Iteration:   2050, Training Accuracy:   2.0%, Validation Accuracy:   3.6%
+Iteration:   2060, Training Accuracy:   2.0%, Validation Accuracy:   3.7%
+Iteration:   2070, Training Accuracy:   4.0%, Validation Accuracy:   3.4%
+Iteration:   2080, Training Accuracy:   0.0%, Validation Accuracy:   3.9%
+Iteration:   2090, Training Accuracy:   8.0%, Validation Accuracy:   3.6%
+Iteration:   2100, Training Accuracy:   4.0%, Validation Accuracy:   3.6%
+Iteration:   2110, Training Accuracy:   4.0%, Validation Accuracy:   3.7%
+Iteration:   2120, Training Accuracy:   6.0%, Validation Accuracy:   4.2%
+Iteration:   2130, Training Accuracy:   0.0%, Validation Accuracy:   3.8%
+Iteration:   2140, Training Accuracy:   2.0%, Validation Accuracy:   3.6%
+Iteration:   2150, Training Accuracy:   4.0%, Validation Accuracy:   3.8%
+Iteration:   2160, Training Accuracy:   0.0%, Validation Accuracy:   3.7%
+Iteration:   2170, Training Accuracy:   2.0%, Validation Accuracy:   3.7%
+Iteration:   2180, Training Accuracy:   4.0%, Validation Accuracy:   4.1%
+Iteration:   2190, Training Accuracy:   6.0%, Validation Accuracy:   4.0%
+Iteration:   2200, Training Accuracy:   8.0%, Validation Accuracy:   3.9%
+Iteration:   2210, Training Accuracy:   4.0%, Validation Accuracy:   4.3%
+Iteration:   2220, Training Accuracy:   2.0%, Validation Accuracy:   3.8%
+Iteration:   2230, Training Accuracy:   2.0%, Validation Accuracy:   4.3%
+Iteration:   2240, Training Accuracy:   4.0%, Validation Accuracy:   3.5%
+Iteration:   2250, Training Accuracy:   4.0%, Validation Accuracy:   3.6%
+Iteration:   2260, Training Accuracy:   2.0%, Validation Accuracy:   3.9%
+Iteration:   2270, Training Accuracy:   4.0%, Validation Accuracy:   3.9%
+Iteration:   2280, Training Accuracy:   8.0%, Validation Accuracy:   3.8%
+Iteration:   2290, Training Accuracy:   0.0%, Validation Accuracy:   3.8%
+Iteration:   2300, Training Accuracy:  14.0%, Validation Accuracy:   3.6%
+Iteration:   2310, Training Accuracy:  10.0%, Validation Accuracy:   4.0%
+Iteration:   2320, Training Accuracy:   2.0%, Validation Accuracy:   4.0%
+Iteration:   2330, Training Accuracy:   2.0%, Validation Accuracy:   4.4%
+Iteration:   2340, Training Accuracy:   6.0%, Validation Accuracy:   4.4%
+Iteration:   2350, Training Accuracy:   0.0%, Validation Accuracy:   4.2%
+Iteration:   2360, Training Accuracy:   0.0%, Validation Accuracy:   4.2%
+Iteration:   2370, Training Accuracy:   2.0%, Validation Accuracy:   3.8%
+Iteration:   2380, Training Accuracy:   4.0%, Validation Accuracy:   3.7%
+Iteration:   2390, Training Accuracy:   0.0%, Validation Accuracy:   4.4%
+Iteration:   2400, Training Accuracy:   6.0%, Validation Accuracy:   4.3%
+Iteration:   2410, Training Accuracy:   2.0%, Validation Accuracy:   4.1%
+Iteration:   2420, Training Accuracy:   6.0%, Validation Accuracy:   4.1%
+Iteration:   2430, Training Accuracy:   8.0%, Validation Accuracy:   4.3%
+Iteration:   2440, Training Accuracy:   8.0%, Validation Accuracy:   4.3%
+Iteration:   2450, Training Accuracy:  10.0%, Validation Accuracy:   4.4%
+Iteration:   2460, Training Accuracy:   6.0%, Validation Accuracy:   4.2%
+Iteration:   2470, Training Accuracy:   6.0%, Validation Accuracy:   4.5%
+Iteration:   2480, Training Accuracy:   8.0%, Validation Accuracy:   4.0%
+Iteration:   2490, Training Accuracy:   6.0%, Validation Accuracy:   4.2%
+Iteration:   2500, Training Accuracy:   0.0%, Validation Accuracy:   4.4%
+Iteration:   2510, Training Accuracy:   4.0%, Validation Accuracy:   4.4%
+Iteration:   2520, Training Accuracy:  10.0%, Validation Accuracy:   4.4%
+Iteration:   2530, Training Accuracy:  12.0%, Validation Accuracy:   4.2%
+Iteration:   2540, Training Accuracy:   4.0%, Validation Accuracy:   4.3%
+Iteration:   2550, Training Accuracy:   0.0%, Validation Accuracy:   4.7%
+Iteration:   2560, Training Accuracy:   4.0%, Validation Accuracy:   4.5%
+Iteration:   2570, Training Accuracy:   6.0%, Validation Accuracy:   4.3%
+Iteration:   2580, Training Accuracy:   6.0%, Validation Accuracy:   4.4%
+Iteration:   2590, Training Accuracy:   4.0%, Validation Accuracy:   4.6%
+Iteration:   2600, Training Accuracy:   8.0%, Validation Accuracy:   4.2%
+Iteration:   2610, Training Accuracy:   6.0%, Validation Accuracy:   4.4%
+Iteration:   2620, Training Accuracy:   2.0%, Validation Accuracy:   4.2%
+Iteration:   2630, Training Accuracy:  10.0%, Validation Accuracy:   4.5%
+Iteration:   2640, Training Accuracy:   2.0%, Validation Accuracy:   4.3%
+Iteration:   2650, Training Accuracy:   8.0%, Validation Accuracy:   4.7%
+Iteration:   2660, Training Accuracy:   2.0%, Validation Accuracy:   4.5%
+Iteration:   2670, Training Accuracy:   4.0%, Validation Accuracy:   4.8%
+Iteration:   2680, Training Accuracy:   2.0%, Validation Accuracy:   4.5%
+Iteration:   2690, Training Accuracy:   4.0%, Validation Accuracy:   4.5%
+Iteration:   2700, Training Accuracy:   8.0%, Validation Accuracy:   4.8%
+Iteration:   2710, Training Accuracy:   8.0%, Validation Accuracy:   5.1%
+Iteration:   2720, Training Accuracy:   6.0%, Validation Accuracy:   4.6%
+Iteration:   2730, Training Accuracy:   2.0%, Validation Accuracy:   4.8%
+Iteration:   2740, Training Accuracy:   0.0%, Validation Accuracy:   4.8%
+Iteration:   2750, Training Accuracy:   0.0%, Validation Accuracy:   4.8%
+Iteration:   2760, Training Accuracy:   4.0%, Validation Accuracy:   5.0%
+Iteration:   2770, Training Accuracy:   6.0%, Validation Accuracy:   5.1%
+Iteration:   2780, Training Accuracy:   2.0%, Validation Accuracy:   4.8%
+Iteration:   2790, Training Accuracy:   4.0%, Validation Accuracy:   5.0%
+Iteration:   2800, Training Accuracy:  10.0%, Validation Accuracy:   4.9%
+Iteration:   2810, Training Accuracy:   4.0%, Validation Accuracy:   4.8%
+Iteration:   2820, Training Accuracy:   6.0%, Validation Accuracy:   4.9%
+Iteration:   2830, Training Accuracy:   4.0%, Validation Accuracy:   5.0%
+Iteration:   2840, Training Accuracy:   0.0%, Validation Accuracy:   4.9%
+Iteration:   2850, Training Accuracy:   6.0%, Validation Accuracy:   5.2%
+Iteration:   2860, Training Accuracy:   2.0%, Validation Accuracy:   5.0%
+Iteration:   2870, Training Accuracy:   6.0%, Validation Accuracy:   5.0%
+Iteration:   2880, Training Accuracy:   2.0%, Validation Accuracy:   5.0%
+Iteration:   2890, Training Accuracy:   6.0%, Validation Accuracy:   4.6%
+Iteration:   2900, Training Accuracy:   8.0%, Validation Accuracy:   5.4%
+Iteration:   2910, Training Accuracy:   4.0%, Validation Accuracy:   5.1%
+Iteration:   2920, Training Accuracy:   4.0%, Validation Accuracy:   4.8%
+Iteration:   2930, Training Accuracy:   6.0%, Validation Accuracy:   4.8%
+Iteration:   2940, Training Accuracy:  18.0%, Validation Accuracy:   4.8%
+Iteration:   2950, Training Accuracy:   8.0%, Validation Accuracy:   4.8%
+Iteration:   2960, Training Accuracy:   8.0%, Validation Accuracy:   4.7%
+Iteration:   2970, Training Accuracy:   4.0%, Validation Accuracy:   4.5%
+Iteration:   2980, Training Accuracy:   8.0%, Validation Accuracy:   4.7%
+Iteration:   2990, Training Accuracy:  10.0%, Validation Accuracy:   4.7%
+Iteration:   3000, Training Accuracy:   2.0%, Validation Accuracy:   4.7%
+Iteration:   3010, Training Accuracy:   8.0%, Validation Accuracy:   4.5%
+Iteration:   3020, Training Accuracy:   4.0%, Validation Accuracy:   4.5%
+Iteration:   3030, Training Accuracy:  10.0%, Validation Accuracy:   4.6%
+Iteration:   3040, Training Accuracy:   8.0%, Validation Accuracy:   4.7%
+Iteration:   3050, Training Accuracy:   8.0%, Validation Accuracy:   4.6%
+Iteration:   3060, Training Accuracy:   0.0%, Validation Accuracy:   4.9%
+Iteration:   3070, Training Accuracy:  10.0%, Validation Accuracy:   4.7%
+Iteration:   3080, Training Accuracy:   6.0%, Validation Accuracy:   4.9%
+Iteration:   3090, Training Accuracy:   6.0%, Validation Accuracy:   5.2%
+Iteration:   3100, Training Accuracy:   6.0%, Validation Accuracy:   4.8%
+Iteration:   3110, Training Accuracy:   4.0%, Validation Accuracy:   5.0%
+Iteration:   3120, Training Accuracy:   2.0%, Validation Accuracy:   4.9%
+Iteration:   3130, Training Accuracy:   4.0%, Validation Accuracy:   5.1%
+Iteration:   3140, Training Accuracy:  10.0%, Validation Accuracy:   5.4%
+Iteration:   3150, Training Accuracy:   8.0%, Validation Accuracy:   5.1%
+Iteration:   3160, Training Accuracy:   4.0%, Validation Accuracy:   4.9%
+Iteration:   3170, Training Accuracy:   6.0%, Validation Accuracy:   5.1%
+Iteration:   3180, Training Accuracy:  12.0%, Validation Accuracy:   5.2%
+Iteration:   3190, Training Accuracy:   2.0%, Validation Accuracy:   5.2%
+Iteration:   3200, Training Accuracy:  12.0%, Validation Accuracy:   5.3%
+Iteration:   3210, Training Accuracy:   6.0%, Validation Accuracy:   5.2%
+Iteration:   3220, Training Accuracy:   8.0%, Validation Accuracy:   4.9%
+Iteration:   3230, Training Accuracy:   8.0%, Validation Accuracy:   5.2%
+Iteration:   3240, Training Accuracy:   0.0%, Validation Accuracy:   5.1%
+Iteration:   3250, Training Accuracy:   6.0%, Validation Accuracy:   5.2%
+Iteration:   3260, Training Accuracy:   6.0%, Validation Accuracy:   5.1%
+Iteration:   3270, Training Accuracy:   2.0%, Validation Accuracy:   5.0%
+Iteration:   3280, Training Accuracy:   4.0%, Validation Accuracy:   5.2%
+Iteration:   3290, Training Accuracy:   2.0%, Validation Accuracy:   5.2%
+Iteration:   3300, Training Accuracy:   2.0%, Validation Accuracy:   4.8%
+Iteration:   3310, Training Accuracy:   6.0%, Validation Accuracy:   5.6%
+Iteration:   3320, Training Accuracy:   6.0%, Validation Accuracy:   5.7%
+Iteration:   3330, Training Accuracy:   8.0%, Validation Accuracy:   5.3%
+Iteration:   3340, Training Accuracy:   4.0%, Validation Accuracy:   5.4%
+Iteration:   3350, Training Accuracy:  10.0%, Validation Accuracy:   5.3%
+Iteration:   3360, Training Accuracy:   8.0%, Validation Accuracy:   5.4%
+Iteration:   3370, Training Accuracy:   6.0%, Validation Accuracy:   5.4%
+Iteration:   3380, Training Accuracy:   2.0%, Validation Accuracy:   5.6%
+Iteration:   3390, Training Accuracy:   6.0%, Validation Accuracy:   5.1%
+Iteration:   3400, Training Accuracy:   8.0%, Validation Accuracy:   5.3%
+Iteration:   3410, Training Accuracy:   4.0%, Validation Accuracy:   5.4%
+Iteration:   3420, Training Accuracy:   4.0%, Validation Accuracy:   5.5%
+Iteration:   3430, Training Accuracy:   8.0%, Validation Accuracy:   6.1%
+Iteration:   3440, Training Accuracy:   4.0%, Validation Accuracy:   5.4%
+Iteration:   3450, Training Accuracy:   8.0%, Validation Accuracy:   5.6%
+Iteration:   3460, Training Accuracy:   8.0%, Validation Accuracy:   5.7%
+Iteration:   3470, Training Accuracy:  10.0%, Validation Accuracy:   5.8%
+Iteration:   3480, Training Accuracy:   4.0%, Validation Accuracy:   5.6%
+Iteration:   3490, Training Accuracy:  16.0%, Validation Accuracy:   5.1%
+Iteration:   3500, Training Accuracy:   8.0%, Validation Accuracy:   5.5%
+Iteration:   3510, Training Accuracy:   8.0%, Validation Accuracy:   5.4%
+Iteration:   3520, Training Accuracy:   6.0%, Validation Accuracy:   5.5%
+Iteration:   3530, Training Accuracy:   4.0%, Validation Accuracy:   5.4%
+Iteration:   3540, Training Accuracy:   4.0%, Validation Accuracy:   5.4%
+Iteration:   3550, Training Accuracy:   8.0%, Validation Accuracy:   5.7%
+Iteration:   3560, Training Accuracy:   4.0%, Validation Accuracy:   5.9%
+Iteration:   3570, Training Accuracy:   8.0%, Validation Accuracy:   5.3%
+Iteration:   3580, Training Accuracy:   4.0%, Validation Accuracy:   5.1%
+Iteration:   3590, Training Accuracy:   6.0%, Validation Accuracy:   5.6%
+Iteration:   3600, Training Accuracy:   6.0%, Validation Accuracy:   5.5%
+Iteration:   3610, Training Accuracy:   8.0%, Validation Accuracy:   5.5%
+Iteration:   3620, Training Accuracy:   0.0%, Validation Accuracy:   5.9%
+Iteration:   3630, Training Accuracy:   8.0%, Validation Accuracy:   5.6%
+Iteration:   3640, Training Accuracy:   2.0%, Validation Accuracy:   5.5%
+Iteration:   3650, Training Accuracy:   4.0%, Validation Accuracy:   5.7%
+Iteration:   3660, Training Accuracy:   6.0%, Validation Accuracy:   6.1%
+Iteration:   3670, Training Accuracy:   2.0%, Validation Accuracy:   5.8%
+Iteration:   3680, Training Accuracy:   4.0%, Validation Accuracy:   6.1%
+Iteration:   3690, Training Accuracy:   2.0%, Validation Accuracy:   6.1%
+Iteration:   3700, Training Accuracy:   2.0%, Validation Accuracy:   6.3%
+Iteration:   3710, Training Accuracy:   8.0%, Validation Accuracy:   6.1%
+Iteration:   3720, Training Accuracy:   6.0%, Validation Accuracy:   6.2%
+Iteration:   3730, Training Accuracy:   4.0%, Validation Accuracy:   6.1%
+Iteration:   3740, Training Accuracy:  10.0%, Validation Accuracy:   6.0%
+Iteration:   3750, Training Accuracy:  12.0%, Validation Accuracy:   5.8%
+Iteration:   3760, Training Accuracy:  10.0%, Validation Accuracy:   5.3%
+Iteration:   3770, Training Accuracy:   4.0%, Validation Accuracy:   5.6%
+Iteration:   3780, Training Accuracy:   2.0%, Validation Accuracy:   6.0%
+Iteration:   3790, Training Accuracy:   8.0%, Validation Accuracy:   5.6%
+Iteration:   3800, Training Accuracy:   6.0%, Validation Accuracy:   5.9%
+Iteration:   3810, Training Accuracy:   8.0%, Validation Accuracy:   6.0%
+Iteration:   3820, Training Accuracy:   8.0%, Validation Accuracy:   5.9%
+Iteration:   3830, Training Accuracy:   8.0%, Validation Accuracy:   6.2%
+Iteration:   3840, Training Accuracy:   2.0%, Validation Accuracy:   6.0%
+Iteration:   3850, Training Accuracy:  18.0%, Validation Accuracy:   6.0%
+Iteration:   3860, Training Accuracy:   6.0%, Validation Accuracy:   6.2%
+Iteration:   3870, Training Accuracy:   8.0%, Validation Accuracy:   5.9%
+Iteration:   3880, Training Accuracy:  12.0%, Validation Accuracy:   5.9%
+Iteration:   3890, Training Accuracy:  12.0%, Validation Accuracy:   6.1%
+Iteration:   3900, Training Accuracy:   6.0%, Validation Accuracy:   6.1%
+Iteration:   3910, Training Accuracy:   4.0%, Validation Accuracy:   6.0%
+Iteration:   3920, Training Accuracy:   4.0%, Validation Accuracy:   6.4%
+Iteration:   3930, Training Accuracy:   0.0%, Validation Accuracy:   6.2%
+Iteration:   3940, Training Accuracy:  10.0%, Validation Accuracy:   6.4%
+Iteration:   3950, Training Accuracy:   4.0%, Validation Accuracy:   6.1%
+Iteration:   3960, Training Accuracy:   2.0%, Validation Accuracy:   6.0%
+Iteration:   3970, Training Accuracy:   8.0%, Validation Accuracy:   5.8%
+Iteration:   3980, Training Accuracy:   6.0%, Validation Accuracy:   6.3%
+Iteration:   3990, Training Accuracy:   4.0%, Validation Accuracy:   6.4%
+Iteration:   4000, Training Accuracy:   2.0%, Validation Accuracy:   6.3%
+Iteration:   4010, Training Accuracy:   2.0%, Validation Accuracy:   6.2%
+Iteration:   4020, Training Accuracy:   6.0%, Validation Accuracy:   6.7%
+Iteration:   4030, Training Accuracy:   6.0%, Validation Accuracy:   6.6%
+Iteration:   4040, Training Accuracy:   8.0%, Validation Accuracy:   6.7%
+Iteration:   4050, Training Accuracy:   4.0%, Validation Accuracy:   6.8%
+Iteration:   4060, Training Accuracy:  12.0%, Validation Accuracy:   6.4%
+Iteration:   4070, Training Accuracy:  16.0%, Validation Accuracy:   6.4%
+Iteration:   4080, Training Accuracy:   8.0%, Validation Accuracy:   6.0%
+Iteration:   4090, Training Accuracy:   6.0%, Validation Accuracy:   6.3%
+Iteration:   4100, Training Accuracy:   6.0%, Validation Accuracy:   6.5%
+Iteration:   4110, Training Accuracy:   8.0%, Validation Accuracy:   6.2%
+Iteration:   4120, Training Accuracy:   6.0%, Validation Accuracy:   6.1%
+Iteration:   4130, Training Accuracy:  14.0%, Validation Accuracy:   6.2%
+Iteration:   4140, Training Accuracy:   8.0%, Validation Accuracy:   6.1%
+Iteration:   4150, Training Accuracy:   4.0%, Validation Accuracy:   6.7%
+Iteration:   4160, Training Accuracy:   8.0%, Validation Accuracy:   6.2%
+Iteration:   4170, Training Accuracy:  10.0%, Validation Accuracy:   5.7%
+Iteration:   4180, Training Accuracy:   4.0%, Validation Accuracy:   6.3%
+Iteration:   4190, Training Accuracy:  12.0%, Validation Accuracy:   6.1%
+Iteration:   4200, Training Accuracy:   4.0%, Validation Accuracy:   6.0%
+Iteration:   4210, Training Accuracy:   8.0%, Validation Accuracy:   6.6%
+Iteration:   4220, Training Accuracy:   4.0%, Validation Accuracy:   6.3%
+Iteration:   4230, Training Accuracy:   8.0%, Validation Accuracy:   6.4%
+Iteration:   4240, Training Accuracy:  12.0%, Validation Accuracy:   6.5%
+Iteration:   4250, Training Accuracy:  14.0%, Validation Accuracy:   6.1%
+Iteration:   4260, Training Accuracy:   6.0%, Validation Accuracy:   6.1%
+Iteration:   4270, Training Accuracy:   0.0%, Validation Accuracy:   6.2%
+Iteration:   4280, Training Accuracy:   8.0%, Validation Accuracy:   6.0%
+Iteration:   4290, Training Accuracy:  20.0%, Validation Accuracy:   6.2%
+Iteration:   4300, Training Accuracy:   6.0%, Validation Accuracy:   6.2%
+Iteration:   4310, Training Accuracy:  10.0%, Validation Accuracy:   6.1%
+Iteration:   4320, Training Accuracy:   8.0%, Validation Accuracy:   6.6%
+Iteration:   4330, Training Accuracy:   4.0%, Validation Accuracy:   6.1%
+Iteration:   4340, Training Accuracy:   8.0%, Validation Accuracy:   6.1%
+Iteration:   4350, Training Accuracy:   4.0%, Validation Accuracy:   6.5%
+Iteration:   4360, Training Accuracy:   8.0%, Validation Accuracy:   6.7%
+Iteration:   4370, Training Accuracy:   6.0%, Validation Accuracy:   6.5%
+Iteration:   4380, Training Accuracy:   6.0%, Validation Accuracy:   6.5%
+Iteration:   4390, Training Accuracy:   2.0%, Validation Accuracy:   6.8%
+Iteration:   4400, Training Accuracy:  18.0%, Validation Accuracy:   6.2%
+Iteration:   4410, Training Accuracy:   8.0%, Validation Accuracy:   6.7%
+Iteration:   4420, Training Accuracy:   6.0%, Validation Accuracy:   6.2%
+Iteration:   4430, Training Accuracy:   2.0%, Validation Accuracy:   6.4%
+Iteration:   4440, Training Accuracy:   8.0%, Validation Accuracy:   6.3%
+Iteration:   4450, Training Accuracy:  10.0%, Validation Accuracy:   6.7%
+Iteration:   4460, Training Accuracy:  10.0%, Validation Accuracy:   6.9%
+Iteration:   4470, Training Accuracy:  14.0%, Validation Accuracy:   6.7%
+Iteration:   4480, Training Accuracy:  14.0%, Validation Accuracy:   7.0%
+Iteration:   4490, Training Accuracy:   8.0%, Validation Accuracy:   6.7%
+Iteration:   4500, Training Accuracy:  10.0%, Validation Accuracy:   7.0%
+Iteration:   4510, Training Accuracy:  12.0%, Validation Accuracy:   6.6%
+Iteration:   4520, Training Accuracy:   2.0%, Validation Accuracy:   6.8%
+Iteration:   4530, Training Accuracy:   4.0%, Validation Accuracy:   6.9%
+Iteration:   4540, Training Accuracy:  10.0%, Validation Accuracy:   6.6%
+Iteration:   4550, Training Accuracy:   4.0%, Validation Accuracy:   6.8%
+Iteration:   4560, Training Accuracy:  10.0%, Validation Accuracy:   6.8%
+Iteration:   4570, Training Accuracy:   6.0%, Validation Accuracy:   6.6%
+Iteration:   4580, Training Accuracy:   4.0%, Validation Accuracy:   6.5%
+Iteration:   4590, Training Accuracy:   6.0%, Validation Accuracy:   6.9%
+Iteration:   4600, Training Accuracy:   8.0%, Validation Accuracy:   6.7%
+Iteration:   4610, Training Accuracy:   2.0%, Validation Accuracy:   6.9%
+Iteration:   4620, Training Accuracy:  18.0%, Validation Accuracy:   7.2%
+Iteration:   4630, Training Accuracy:  10.0%, Validation Accuracy:   7.1%
+Iteration:   4640, Training Accuracy:   4.0%, Validation Accuracy:   6.9%
+Iteration:   4650, Training Accuracy:  12.0%, Validation Accuracy:   6.8%
+Iteration:   4660, Training Accuracy:   2.0%, Validation Accuracy:   6.8%
+Iteration:   4670, Training Accuracy:   8.0%, Validation Accuracy:   6.4%
+Iteration:   4680, Training Accuracy:   8.0%, Validation Accuracy:   6.9%
+Iteration:   4690, Training Accuracy:   6.0%, Validation Accuracy:   6.8%
+Iteration:   4700, Training Accuracy:  10.0%, Validation Accuracy:   6.5%
+Iteration:   4710, Training Accuracy:  12.0%, Validation Accuracy:   6.5%
+Iteration:   4720, Training Accuracy:  14.0%, Validation Accuracy:   6.9%
+Iteration:   4730, Training Accuracy:  14.0%, Validation Accuracy:   6.8%
+Iteration:   4740, Training Accuracy:   4.0%, Validation Accuracy:   7.1%
+Iteration:   4750, Training Accuracy:   6.0%, Validation Accuracy:   6.8%
+Iteration:   4760, Training Accuracy:  18.0%, Validation Accuracy:   6.7%
+Iteration:   4770, Training Accuracy:  12.0%, Validation Accuracy:   7.1%
+Iteration:   4780, Training Accuracy:   6.0%, Validation Accuracy:   7.0%
+Iteration:   4790, Training Accuracy:  16.0%, Validation Accuracy:   7.0%
+Iteration:   4800, Training Accuracy:   8.0%, Validation Accuracy:   6.9%
+Iteration:   4810, Training Accuracy:  12.0%, Validation Accuracy:   7.2%
+Iteration:   4820, Training Accuracy:   4.0%, Validation Accuracy:   6.8%
+Iteration:   4830, Training Accuracy:   8.0%, Validation Accuracy:   6.7%
+Iteration:   4840, Training Accuracy:  10.0%, Validation Accuracy:   6.7%
+Iteration:   4850, Training Accuracy:   6.0%, Validation Accuracy:   6.9%
+Iteration:   4860, Training Accuracy:  10.0%, Validation Accuracy:   6.8%
+Iteration:   4870, Training Accuracy:   8.0%, Validation Accuracy:   6.9%
+Iteration:   4880, Training Accuracy:  18.0%, Validation Accuracy:   7.2%
+Iteration:   4890, Training Accuracy:   8.0%, Validation Accuracy:   7.1%
+Iteration:   4900, Training Accuracy:   8.0%, Validation Accuracy:   7.0%
+Iteration:   4910, Training Accuracy:  16.0%, Validation Accuracy:   6.9%
+Iteration:   4920, Training Accuracy:   6.0%, Validation Accuracy:   7.4%
+Iteration:   4930, Training Accuracy:  12.0%, Validation Accuracy:   7.1%
+Iteration:   4940, Training Accuracy:   8.0%, Validation Accuracy:   7.1%
+Iteration:   4950, Training Accuracy:  10.0%, Validation Accuracy:   7.2%
+Iteration:   4960, Training Accuracy:  16.0%, Validation Accuracy:   7.0%
+Iteration:   4970, Training Accuracy:  10.0%, Validation Accuracy:   6.9%
+Iteration:   4980, Training Accuracy:  12.0%, Validation Accuracy:   6.5%
+Iteration:   4990, Training Accuracy:  10.0%, Validation Accuracy:   7.2%
+Iteration:   5000, Training Accuracy:   8.0%, Validation Accuracy:   6.7%
+Iteration:   5010, Training Accuracy:  16.0%, Validation Accuracy:   7.0%
+Iteration:   5020, Training Accuracy:  10.0%, Validation Accuracy:   7.1%
+Iteration:   5030, Training Accuracy:  10.0%, Validation Accuracy:   7.3%
+Iteration:   5040, Training Accuracy:  14.0%, Validation Accuracy:   7.4%
+Iteration:   5050, Training Accuracy:   6.0%, Validation Accuracy:   6.7%
+Iteration:   5060, Training Accuracy:  22.0%, Validation Accuracy:   7.3%
+Iteration:   5070, Training Accuracy:  14.0%, Validation Accuracy:   7.2%
+Iteration:   5080, Training Accuracy:   8.0%, Validation Accuracy:   7.4%
+Iteration:   5090, Training Accuracy:   8.0%, Validation Accuracy:   7.4%
+Iteration:   5100, Training Accuracy:   6.0%, Validation Accuracy:   7.1%
+Iteration:   5110, Training Accuracy:  14.0%, Validation Accuracy:   7.4%
+Iteration:   5120, Training Accuracy:  10.0%, Validation Accuracy:   7.1%
+Iteration:   5130, Training Accuracy:   6.0%, Validation Accuracy:   7.3%
+Iteration:   5140, Training Accuracy:  14.0%, Validation Accuracy:   6.7%
+Iteration:   5150, Training Accuracy:  10.0%, Validation Accuracy:   7.1%
+Iteration:   5160, Training Accuracy:   4.0%, Validation Accuracy:   7.7%
+Iteration:   5170, Training Accuracy:   2.0%, Validation Accuracy:   7.1%
+Iteration:   5180, Training Accuracy:  10.0%, Validation Accuracy:   7.0%
+Iteration:   5190, Training Accuracy:  14.0%, Validation Accuracy:   7.3%
+Iteration:   5200, Training Accuracy:  10.0%, Validation Accuracy:   7.0%
+Iteration:   5210, Training Accuracy:  10.0%, Validation Accuracy:   7.2%
+Iteration:   5220, Training Accuracy:  16.0%, Validation Accuracy:   7.2%
+Iteration:   5230, Training Accuracy:  14.0%, Validation Accuracy:   7.1%
+Iteration:   5240, Training Accuracy:  14.0%, Validation Accuracy:   7.0%
+Iteration:   5250, Training Accuracy:   6.0%, Validation Accuracy:   7.5%
+Iteration:   5260, Training Accuracy:  18.0%, Validation Accuracy:   7.3%
+Iteration:   5270, Training Accuracy:   8.0%, Validation Accuracy:   7.2%
+Iteration:   5280, Training Accuracy:   6.0%, Validation Accuracy:   7.5%
+Iteration:   5290, Training Accuracy:  16.0%, Validation Accuracy:   7.2%
+Iteration:   5300, Training Accuracy:   4.0%, Validation Accuracy:   7.2%
+Iteration:   5310, Training Accuracy:   8.0%, Validation Accuracy:   7.2%
+Iteration:   5320, Training Accuracy:  16.0%, Validation Accuracy:   7.4%
+Iteration:   5330, Training Accuracy:  12.0%, Validation Accuracy:   7.3%
+Iteration:   5340, Training Accuracy:  12.0%, Validation Accuracy:   7.6%
+Iteration:   5350, Training Accuracy:  10.0%, Validation Accuracy:   7.3%
+Iteration:   5360, Training Accuracy:   8.0%, Validation Accuracy:   7.2%
+Iteration:   5370, Training Accuracy:  10.0%, Validation Accuracy:   7.6%
+Iteration:   5380, Training Accuracy:  20.0%, Validation Accuracy:   7.5%
+Iteration:   5390, Training Accuracy:  10.0%, Validation Accuracy:   7.2%
+Iteration:   5400, Training Accuracy:   4.0%, Validation Accuracy:   7.4%
+Iteration:   5410, Training Accuracy:  12.0%, Validation Accuracy:   7.6%
+Iteration:   5420, Training Accuracy:   8.0%, Validation Accuracy:   7.5%
+Iteration:   5430, Training Accuracy:   6.0%, Validation Accuracy:   7.3%
+Iteration:   5440, Training Accuracy:  10.0%, Validation Accuracy:   7.8%
+Iteration:   5450, Training Accuracy:  14.0%, Validation Accuracy:   7.2%
+Iteration:   5460, Training Accuracy:  10.0%, Validation Accuracy:   7.3%
+Iteration:   5470, Training Accuracy:   8.0%, Validation Accuracy:   7.6%
+Iteration:   5480, Training Accuracy:  10.0%, Validation Accuracy:   7.7%
+Iteration:   5490, Training Accuracy:   6.0%, Validation Accuracy:   7.6%
+Iteration:   5500, Training Accuracy:  14.0%, Validation Accuracy:   7.8%
+Iteration:   5510, Training Accuracy:   6.0%, Validation Accuracy:   7.0%
+Iteration:   5520, Training Accuracy:  10.0%, Validation Accuracy:   7.2%
+Iteration:   5530, Training Accuracy:  12.0%, Validation Accuracy:   7.8%
+Iteration:   5540, Training Accuracy:  14.0%, Validation Accuracy:   7.7%
+Iteration:   5550, Training Accuracy:  10.0%, Validation Accuracy:   8.0%
+Iteration:   5560, Training Accuracy:  12.0%, Validation Accuracy:   7.7%
+Iteration:   5570, Training Accuracy:   6.0%, Validation Accuracy:   7.5%
+Iteration:   5580, Training Accuracy:   6.0%, Validation Accuracy:   7.7%
+Iteration:   5590, Training Accuracy:   8.0%, Validation Accuracy:   7.9%
+Iteration:   5600, Training Accuracy:  20.0%, Validation Accuracy:   8.3%
+Iteration:   5610, Training Accuracy:  18.0%, Validation Accuracy:   8.0%
+Iteration:   5620, Training Accuracy:  10.0%, Validation Accuracy:   7.4%
+Iteration:   5630, Training Accuracy:  18.0%, Validation Accuracy:   7.4%
+Iteration:   5640, Training Accuracy:  12.0%, Validation Accuracy:   7.8%
+Iteration:   5650, Training Accuracy:  16.0%, Validation Accuracy:   7.8%
+Iteration:   5660, Training Accuracy:   6.0%, Validation Accuracy:   7.4%
+Iteration:   5670, Training Accuracy:  12.0%, Validation Accuracy:   7.9%
+Iteration:   5680, Training Accuracy:   6.0%, Validation Accuracy:   7.4%
+Iteration:   5690, Training Accuracy:   8.0%, Validation Accuracy:   7.5%
+Iteration:   5700, Training Accuracy:  10.0%, Validation Accuracy:   7.6%
+Iteration:   5710, Training Accuracy:   4.0%, Validation Accuracy:   7.6%
+Iteration:   5720, Training Accuracy:  10.0%, Validation Accuracy:   7.4%
+Iteration:   5730, Training Accuracy:   6.0%, Validation Accuracy:   7.4%
+Iteration:   5740, Training Accuracy:  10.0%, Validation Accuracy:   7.4%
+Iteration:   5750, Training Accuracy:   2.0%, Validation Accuracy:   7.3%
+Iteration:   5760, Training Accuracy:  10.0%, Validation Accuracy:   7.9%
+Iteration:   5770, Training Accuracy:   8.0%, Validation Accuracy:   7.9%
+Iteration:   5780, Training Accuracy:   6.0%, Validation Accuracy:   7.7%
+Iteration:   5790, Training Accuracy:  16.0%, Validation Accuracy:   8.3%
+Iteration:   5800, Training Accuracy:  14.0%, Validation Accuracy:   8.2%
+Iteration:   5810, Training Accuracy:  14.0%, Validation Accuracy:   7.5%
+Iteration:   5820, Training Accuracy:  10.0%, Validation Accuracy:   7.5%
+Iteration:   5830, Training Accuracy:   8.0%, Validation Accuracy:   7.5%
+Iteration:   5840, Training Accuracy:  14.0%, Validation Accuracy:   7.6%
+Iteration:   5850, Training Accuracy:  20.0%, Validation Accuracy:   7.6%
+Iteration:   5860, Training Accuracy:  14.0%, Validation Accuracy:   7.8%
+Iteration:   5870, Training Accuracy:   8.0%, Validation Accuracy:   7.6%
+Iteration:   5880, Training Accuracy:  18.0%, Validation Accuracy:   7.8%
+Iteration:   5890, Training Accuracy:  10.0%, Validation Accuracy:   7.6%
+Iteration:   5900, Training Accuracy:  16.0%, Validation Accuracy:   7.5%
+Iteration:   5910, Training Accuracy:  20.0%, Validation Accuracy:   7.2%
+Iteration:   5920, Training Accuracy:  14.0%, Validation Accuracy:   7.7%
+Iteration:   5930, Training Accuracy:  12.0%, Validation Accuracy:   8.0%
+Iteration:   5940, Training Accuracy:  14.0%, Validation Accuracy:   7.2%
+Iteration:   5950, Training Accuracy:  10.0%, Validation Accuracy:   7.6%
+Iteration:   5960, Training Accuracy:   6.0%, Validation Accuracy:   8.2%
+Iteration:   5970, Training Accuracy:  10.0%, Validation Accuracy:   7.7%
+Iteration:   5980, Training Accuracy:   8.0%, Validation Accuracy:   7.5%
+Iteration:   5990, Training Accuracy:  22.0%, Validation Accuracy:   7.8%
+Iteration:   6000, Training Accuracy:  12.0%, Validation Accuracy:   7.7%
+Iteration:   6010, Training Accuracy:  10.0%, Validation Accuracy:   7.6%
+Iteration:   6020, Training Accuracy:   8.0%, Validation Accuracy:   8.3%
+Iteration:   6030, Training Accuracy:   2.0%, Validation Accuracy:   8.0%
+Iteration:   6040, Training Accuracy:  14.0%, Validation Accuracy:   8.5%
+Iteration:   6050, Training Accuracy:  12.0%, Validation Accuracy:   8.2%
+Iteration:   6060, Training Accuracy:  12.0%, Validation Accuracy:   7.9%
+Iteration:   6070, Training Accuracy:   8.0%, Validation Accuracy:   8.5%
+Iteration:   6080, Training Accuracy:  12.0%, Validation Accuracy:   8.2%
+Iteration:   6090, Training Accuracy:   8.0%, Validation Accuracy:   8.0%
+Iteration:   6100, Training Accuracy:  10.0%, Validation Accuracy:   8.0%
+Iteration:   6110, Training Accuracy:  14.0%, Validation Accuracy:   8.1%
+Iteration:   6120, Training Accuracy:   8.0%, Validation Accuracy:   7.5%
+Iteration:   6130, Training Accuracy:  14.0%, Validation Accuracy:   8.0%
+Iteration:   6140, Training Accuracy:   8.0%, Validation Accuracy:   7.8%
+Iteration:   6150, Training Accuracy:  16.0%, Validation Accuracy:   8.1%
+Iteration:   6160, Training Accuracy:  12.0%, Validation Accuracy:   7.9%
+Iteration:   6170, Training Accuracy:  14.0%, Validation Accuracy:   8.2%
+Iteration:   6180, Training Accuracy:   8.0%, Validation Accuracy:   7.8%
+Iteration:   6190, Training Accuracy:   8.0%, Validation Accuracy:   7.8%
+Iteration:   6200, Training Accuracy:  20.0%, Validation Accuracy:   7.6%
+Iteration:   6210, Training Accuracy:  14.0%, Validation Accuracy:   7.9%
+Iteration:   6220, Training Accuracy:  14.0%, Validation Accuracy:   7.9%
+Iteration:   6230, Training Accuracy:  18.0%, Validation Accuracy:   8.0%
+Iteration:   6240, Training Accuracy:  18.0%, Validation Accuracy:   8.4%
+Iteration:   6250, Training Accuracy:  22.0%, Validation Accuracy:   8.1%
+Iteration:   6260, Training Accuracy:  14.0%, Validation Accuracy:   8.3%
+Iteration:   6270, Training Accuracy:  18.0%, Validation Accuracy:   8.3%
+Iteration:   6280, Training Accuracy:  22.0%, Validation Accuracy:   8.2%
+Iteration:   6290, Training Accuracy:  12.0%, Validation Accuracy:   8.4%
+Iteration:   6300, Training Accuracy:  22.0%, Validation Accuracy:   8.0%
+Iteration:   6310, Training Accuracy:  12.0%, Validation Accuracy:   8.2%
+Iteration:   6320, Training Accuracy:  16.0%, Validation Accuracy:   8.0%
+Iteration:   6330, Training Accuracy:  28.0%, Validation Accuracy:   7.8%
+Iteration:   6340, Training Accuracy:  14.0%, Validation Accuracy:   8.2%
+Iteration:   6350, Training Accuracy:  18.0%, Validation Accuracy:   8.4%
+Iteration:   6360, Training Accuracy:  12.0%, Validation Accuracy:   8.1%
+Iteration:   6370, Training Accuracy:  20.0%, Validation Accuracy:   8.0%
+Iteration:   6380, Training Accuracy:  16.0%, Validation Accuracy:   8.2%
+Iteration:   6390, Training Accuracy:  12.0%, Validation Accuracy:   8.3%
+Iteration:   6400, Training Accuracy:   6.0%, Validation Accuracy:   8.3%
+Iteration:   6410, Training Accuracy:  10.0%, Validation Accuracy:   8.4%
+Iteration:   6420, Training Accuracy:  16.0%, Validation Accuracy:   8.2%
+Iteration:   6430, Training Accuracy:  14.0%, Validation Accuracy:   8.4%
+Iteration:   6440, Training Accuracy:  14.0%, Validation Accuracy:   8.0%
+Iteration:   6450, Training Accuracy:  14.0%, Validation Accuracy:   7.9%
+Iteration:   6460, Training Accuracy:  18.0%, Validation Accuracy:   8.1%
+Iteration:   6470, Training Accuracy:   8.0%, Validation Accuracy:   8.0%
+Iteration:   6480, Training Accuracy:  10.0%, Validation Accuracy:   7.9%
+Iteration:   6490, Training Accuracy:  12.0%, Validation Accuracy:   8.4%
+Iteration:   6500, Training Accuracy:  12.0%, Validation Accuracy:   8.2%
+Iteration:   6510, Training Accuracy:  12.0%, Validation Accuracy:   8.3%
+Iteration:   6520, Training Accuracy:  20.0%, Validation Accuracy:   8.4%
+Iteration:   6530, Training Accuracy:  14.0%, Validation Accuracy:   8.1%
+Iteration:   6540, Training Accuracy:  18.0%, Validation Accuracy:   7.9%
+Iteration:   6550, Training Accuracy:  12.0%, Validation Accuracy:   8.1%
+Iteration:   6560, Training Accuracy:  10.0%, Validation Accuracy:   8.2%
+Iteration:   6570, Training Accuracy:  20.0%, Validation Accuracy:   8.2%
+Iteration:   6580, Training Accuracy:  14.0%, Validation Accuracy:   8.4%
+Iteration:   6590, Training Accuracy:  18.0%, Validation Accuracy:   8.2%
+Iteration:   6600, Training Accuracy:  16.0%, Validation Accuracy:   7.8%
+Iteration:   6610, Training Accuracy:  20.0%, Validation Accuracy:   9.1%
+Iteration:   6620, Training Accuracy:  22.0%, Validation Accuracy:   8.4%
+Iteration:   6630, Training Accuracy:  14.0%, Validation Accuracy:   8.3%
+Iteration:   6640, Training Accuracy:  10.0%, Validation Accuracy:   8.5%
+Iteration:   6650, Training Accuracy:  12.0%, Validation Accuracy:   8.5%
+Iteration:   6660, Training Accuracy:   6.0%, Validation Accuracy:   8.2%
+Iteration:   6670, Training Accuracy:  18.0%, Validation Accuracy:   8.4%
+Iteration:   6680, Training Accuracy:  12.0%, Validation Accuracy:   8.4%
+Iteration:   6690, Training Accuracy:  16.0%, Validation Accuracy:   8.2%
+Iteration:   6700, Training Accuracy:  22.0%, Validation Accuracy:   8.5%
+Iteration:   6710, Training Accuracy:  18.0%, Validation Accuracy:   8.3%
+Iteration:   6720, Training Accuracy:  22.0%, Validation Accuracy:   8.5%
+Iteration:   6730, Training Accuracy:  10.0%, Validation Accuracy:   8.5%
+Iteration:   6740, Training Accuracy:  14.0%, Validation Accuracy:   8.2%
+Iteration:   6750, Training Accuracy:  18.0%, Validation Accuracy:   8.0%
+Iteration:   6760, Training Accuracy:  10.0%, Validation Accuracy:   8.5%
+Iteration:   6770, Training Accuracy:  10.0%, Validation Accuracy:   8.2%
+Iteration:   6780, Training Accuracy:  14.0%, Validation Accuracy:   8.5%
+Iteration:   6790, Training Accuracy:  14.0%, Validation Accuracy:   8.3%
+Iteration:   6800, Training Accuracy:  16.0%, Validation Accuracy:   8.5%
+Iteration:   6810, Training Accuracy:  24.0%, Validation Accuracy:   8.6%
+Iteration:   6820, Training Accuracy:  20.0%, Validation Accuracy:   9.0%
+Iteration:   6830, Training Accuracy:   8.0%, Validation Accuracy:   8.5%
+Iteration:   6840, Training Accuracy:  14.0%, Validation Accuracy:   8.2%
+Iteration:   6850, Training Accuracy:  20.0%, Validation Accuracy:   8.3%
+Iteration:   6860, Training Accuracy:  10.0%, Validation Accuracy:   8.6%
+Iteration:   6870, Training Accuracy:  12.0%, Validation Accuracy:   7.7%
+Iteration:   6880, Training Accuracy:  34.0%, Validation Accuracy:   8.5%
+Iteration:   6890, Training Accuracy:  16.0%, Validation Accuracy:   8.5%
+Iteration:   6900, Training Accuracy:  24.0%, Validation Accuracy:   8.5%
+Iteration:   6910, Training Accuracy:  20.0%, Validation Accuracy:   8.6%
+Iteration:   6920, Training Accuracy:  24.0%, Validation Accuracy:   8.6%
+Iteration:   6930, Training Accuracy:  16.0%, Validation Accuracy:   8.2%
+Iteration:   6940, Training Accuracy:   8.0%, Validation Accuracy:   8.5%
+Iteration:   6950, Training Accuracy:  18.0%, Validation Accuracy:   8.6%
+Iteration:   6960, Training Accuracy:  14.0%, Validation Accuracy:   8.1%
+Iteration:   6970, Training Accuracy:  12.0%, Validation Accuracy:   8.7%
+Iteration:   6980, Training Accuracy:  20.0%, Validation Accuracy:   8.6%
+Iteration:   6990, Training Accuracy:  18.0%, Validation Accuracy:   8.6%
+Iteration:   7000, Training Accuracy:  20.0%, Validation Accuracy:   8.2%
+Iteration:   7010, Training Accuracy:  12.0%, Validation Accuracy:   8.2%
+Iteration:   7020, Training Accuracy:  10.0%, Validation Accuracy:   8.6%
+Iteration:   7030, Training Accuracy:  16.0%, Validation Accuracy:   8.7%
+Iteration:   7040, Training Accuracy:  10.0%, Validation Accuracy:   8.9%
+Iteration:   7050, Training Accuracy:   8.0%, Validation Accuracy:   8.6%
+Iteration:   7060, Training Accuracy:  12.0%, Validation Accuracy:   8.9%
+Iteration:   7070, Training Accuracy:  16.0%, Validation Accuracy:   8.1%
+Iteration:   7080, Training Accuracy:  24.0%, Validation Accuracy:   8.4%
+Iteration:   7090, Training Accuracy:  24.0%, Validation Accuracy:   8.4%
+Iteration:   7100, Training Accuracy:  12.0%, Validation Accuracy:   8.6%
+Iteration:   7110, Training Accuracy:  12.0%, Validation Accuracy:   8.5%
+Iteration:   7120, Training Accuracy:  12.0%, Validation Accuracy:   8.1%
+Iteration:   7130, Training Accuracy:  12.0%, Validation Accuracy:   8.7%
+Iteration:   7140, Training Accuracy:  16.0%, Validation Accuracy:   8.7%
+Iteration:   7150, Training Accuracy:  12.0%, Validation Accuracy:   8.1%
+Iteration:   7160, Training Accuracy:   8.0%, Validation Accuracy:   8.5%
+Iteration:   7170, Training Accuracy:  20.0%, Validation Accuracy:   8.9%
+Iteration:   7180, Training Accuracy:  12.0%, Validation Accuracy:   8.6%
+Iteration:   7190, Training Accuracy:  20.0%, Validation Accuracy:   8.7%
+Iteration:   7200, Training Accuracy:  22.0%, Validation Accuracy:   8.7%
+Iteration:   7210, Training Accuracy:  16.0%, Validation Accuracy:   8.7%
+Iteration:   7220, Training Accuracy:  16.0%, Validation Accuracy:   8.3%
+Iteration:   7230, Training Accuracy:  18.0%, Validation Accuracy:   8.5%
+Iteration:   7240, Training Accuracy:  24.0%, Validation Accuracy:   8.9%
+Iteration:   7250, Training Accuracy:  16.0%, Validation Accuracy:   9.0%
+Iteration:   7260, Training Accuracy:  12.0%, Validation Accuracy:   9.0%
+Iteration:   7270, Training Accuracy:  16.0%, Validation Accuracy:   9.2%
+Iteration:   7280, Training Accuracy:  10.0%, Validation Accuracy:   8.9%
+Iteration:   7290, Training Accuracy:  18.0%, Validation Accuracy:   8.9%
+Iteration:   7300, Training Accuracy:  20.0%, Validation Accuracy:   8.9%
+Iteration:   7310, Training Accuracy:  18.0%, Validation Accuracy:   8.8%
+Iteration:   7320, Training Accuracy:  18.0%, Validation Accuracy:   8.9%
+Iteration:   7330, Training Accuracy:  12.0%, Validation Accuracy:   8.6%
+Iteration:   7340, Training Accuracy:  14.0%, Validation Accuracy:   8.9%
+Iteration:   7350, Training Accuracy:  20.0%, Validation Accuracy:   9.1%
+Iteration:   7360, Training Accuracy:  16.0%, Validation Accuracy:   8.6%
+Iteration:   7370, Training Accuracy:  14.0%, Validation Accuracy:   8.4%
+Iteration:   7380, Training Accuracy:  18.0%, Validation Accuracy:   8.6%
+Iteration:   7390, Training Accuracy:  10.0%, Validation Accuracy:   9.2%
+Iteration:   7400, Training Accuracy:   4.0%, Validation Accuracy:   8.7%
+Iteration:   7410, Training Accuracy:  10.0%, Validation Accuracy:   8.8%
+Iteration:   7420, Training Accuracy:  18.0%, Validation Accuracy:   8.9%
+Iteration:   7430, Training Accuracy:  18.0%, Validation Accuracy:   8.8%
+Iteration:   7440, Training Accuracy:  16.0%, Validation Accuracy:   9.1%
+Iteration:   7450, Training Accuracy:  18.0%, Validation Accuracy:   8.4%
+Iteration:   7460, Training Accuracy:  20.0%, Validation Accuracy:   8.9%
+Iteration:   7470, Training Accuracy:  24.0%, Validation Accuracy:   8.6%
+Iteration:   7480, Training Accuracy:  28.0%, Validation Accuracy:   8.7%
+Iteration:   7490, Training Accuracy:  30.0%, Validation Accuracy:   8.5%
+Iteration:   7500, Training Accuracy:  12.0%, Validation Accuracy:   8.6%
+Iteration:   7510, Training Accuracy:  26.0%, Validation Accuracy:   8.9%
+Iteration:   7520, Training Accuracy:  20.0%, Validation Accuracy:   8.3%
+Iteration:   7530, Training Accuracy:  20.0%, Validation Accuracy:   9.0%
+Iteration:   7540, Training Accuracy:  20.0%, Validation Accuracy:   8.5%
+Iteration:   7550, Training Accuracy:  12.0%, Validation Accuracy:   8.7%
+Iteration:   7560, Training Accuracy:  18.0%, Validation Accuracy:   8.5%
+Iteration:   7570, Training Accuracy:  14.0%, Validation Accuracy:   8.2%
+Iteration:   7580, Training Accuracy:  18.0%, Validation Accuracy:   8.9%
+Iteration:   7590, Training Accuracy:  22.0%, Validation Accuracy:   8.5%
+Iteration:   7600, Training Accuracy:  16.0%, Validation Accuracy:   9.1%
+Iteration:   7610, Training Accuracy:  24.0%, Validation Accuracy:   8.8%
+Iteration:   7620, Training Accuracy:  18.0%, Validation Accuracy:   9.0%
+Iteration:   7630, Training Accuracy:  16.0%, Validation Accuracy:   8.4%
+Iteration:   7640, Training Accuracy:  20.0%, Validation Accuracy:   8.8%
+Iteration:   7650, Training Accuracy:  14.0%, Validation Accuracy:   8.9%
+Iteration:   7660, Training Accuracy:  14.0%, Validation Accuracy:   9.1%
+Iteration:   7670, Training Accuracy:  22.0%, Validation Accuracy:   9.1%
+Iteration:   7680, Training Accuracy:  18.0%, Validation Accuracy:   8.9%
+Iteration:   7690, Training Accuracy:  16.0%, Validation Accuracy:   8.6%
+Iteration:   7700, Training Accuracy:  18.0%, Validation Accuracy:   8.9%
+Iteration:   7710, Training Accuracy:  14.0%, Validation Accuracy:   9.0%
+Iteration:   7720, Training Accuracy:  22.0%, Validation Accuracy:   8.8%
+Iteration:   7730, Training Accuracy:  24.0%, Validation Accuracy:   8.5%
+Iteration:   7740, Training Accuracy:  12.0%, Validation Accuracy:   8.7%
+Iteration:   7750, Training Accuracy:  28.0%, Validation Accuracy:   8.7%
+Iteration:   7760, Training Accuracy:   8.0%, Validation Accuracy:   8.6%
+Iteration:   7770, Training Accuracy:  12.0%, Validation Accuracy:   8.5%
+Iteration:   7780, Training Accuracy:  14.0%, Validation Accuracy:   8.3%
+Iteration:   7790, Training Accuracy:  22.0%, Validation Accuracy:   8.5%
+Iteration:   7800, Training Accuracy:  16.0%, Validation Accuracy:   9.0%
+Iteration:   7810, Training Accuracy:  12.0%, Validation Accuracy:   9.5%
+Iteration:   7820, Training Accuracy:  10.0%, Validation Accuracy:   9.2%
+Iteration:   7830, Training Accuracy:  30.0%, Validation Accuracy:   8.9%
+Iteration:   7840, Training Accuracy:  22.0%, Validation Accuracy:   8.9%
+Iteration:   7850, Training Accuracy:  16.0%, Validation Accuracy:   8.8%
+Iteration:   7860, Training Accuracy:  16.0%, Validation Accuracy:   8.9%
+Iteration:   7870, Training Accuracy:  20.0%, Validation Accuracy:   8.7%
+Iteration:   7880, Training Accuracy:  16.0%, Validation Accuracy:   8.8%
+Iteration:   7890, Training Accuracy:  32.0%, Validation Accuracy:   8.5%
+Iteration:   7900, Training Accuracy:  20.0%, Validation Accuracy:   8.5%
+Iteration:   7910, Training Accuracy:  34.0%, Validation Accuracy:   8.3%
+Iteration:   7920, Training Accuracy:  14.0%, Validation Accuracy:   8.9%
+Iteration:   7930, Training Accuracy:  32.0%, Validation Accuracy:   8.8%
+Iteration:   7940, Training Accuracy:  20.0%, Validation Accuracy:   9.3%
+Iteration:   7950, Training Accuracy:  10.0%, Validation Accuracy:   9.4%
+Iteration:   7960, Training Accuracy:  14.0%, Validation Accuracy:   9.1%
+Iteration:   7970, Training Accuracy:   8.0%, Validation Accuracy:   9.0%
+Iteration:   7980, Training Accuracy:  22.0%, Validation Accuracy:   8.8%
+Iteration:   7990, Training Accuracy:  24.0%, Validation Accuracy:   9.0%
+Iteration:   8000, Training Accuracy:  26.0%, Validation Accuracy:   8.8%
+Iteration:   8010, Training Accuracy:  22.0%, Validation Accuracy:   8.8%
+Iteration:   8020, Training Accuracy:  16.0%, Validation Accuracy:   9.3%
+Iteration:   8030, Training Accuracy:  22.0%, Validation Accuracy:   9.1%
+Iteration:   8040, Training Accuracy:  20.0%, Validation Accuracy:   8.9%
+Iteration:   8050, Training Accuracy:  16.0%, Validation Accuracy:   9.0%
+Iteration:   8060, Training Accuracy:  20.0%, Validation Accuracy:   9.2%
+Iteration:   8070, Training Accuracy:  32.0%, Validation Accuracy:   9.1%
+Iteration:   8080, Training Accuracy:  22.0%, Validation Accuracy:   9.1%
+Iteration:   8090, Training Accuracy:  22.0%, Validation Accuracy:   8.5%
+Iteration:   8100, Training Accuracy:  24.0%, Validation Accuracy:   8.8%
+Iteration:   8110, Training Accuracy:  18.0%, Validation Accuracy:   9.1%
+Iteration:   8120, Training Accuracy:  20.0%, Validation Accuracy:   8.7%
+Iteration:   8130, Training Accuracy:  16.0%, Validation Accuracy:   8.9%
+Iteration:   8140, Training Accuracy:  20.0%, Validation Accuracy:   8.8%
+Iteration:   8150, Training Accuracy:  20.0%, Validation Accuracy:   8.9%
+Iteration:   8160, Training Accuracy:  16.0%, Validation Accuracy:   8.8%
+Iteration:   8170, Training Accuracy:  20.0%, Validation Accuracy:   9.1%
+Iteration:   8180, Training Accuracy:  24.0%, Validation Accuracy:   8.8%
+Iteration:   8190, Training Accuracy:  16.0%, Validation Accuracy:   9.4%
+Iteration:   8200, Training Accuracy:  10.0%, Validation Accuracy:   9.4%
+Iteration:   8210, Training Accuracy:  16.0%, Validation Accuracy:   9.5%
+Iteration:   8220, Training Accuracy:  16.0%, Validation Accuracy:   9.3%
+Iteration:   8230, Training Accuracy:  22.0%, Validation Accuracy:   9.1%
+Iteration:   8240, Training Accuracy:  12.0%, Validation Accuracy:   9.1%
+Iteration:   8250, Training Accuracy:  22.0%, Validation Accuracy:   9.0%
+Iteration:   8260, Training Accuracy:  18.0%, Validation Accuracy:   8.4%
+Iteration:   8270, Training Accuracy:  28.0%, Validation Accuracy:   8.8%
+Iteration:   8280, Training Accuracy:  20.0%, Validation Accuracy:   9.0%
+Iteration:   8290, Training Accuracy:  14.0%, Validation Accuracy:   8.8%
+Iteration:   8300, Training Accuracy:  22.0%, Validation Accuracy:   8.8%
+Iteration:   8310, Training Accuracy:  20.0%, Validation Accuracy:   9.0%
+Iteration:   8320, Training Accuracy:  20.0%, Validation Accuracy:   8.9%
+Iteration:   8330, Training Accuracy:  28.0%, Validation Accuracy:   9.0%
+Iteration:   8340, Training Accuracy:  12.0%, Validation Accuracy:   8.9%
+Iteration:   8350, Training Accuracy:  18.0%, Validation Accuracy:   8.9%
+Iteration:   8360, Training Accuracy:  22.0%, Validation Accuracy:   8.9%
+Iteration:   8370, Training Accuracy:  18.0%, Validation Accuracy:   9.3%
+Iteration:   8380, Training Accuracy:  18.0%, Validation Accuracy:   9.5%
+Iteration:   8390, Training Accuracy:  16.0%, Validation Accuracy:   9.5%
+Iteration:   8400, Training Accuracy:  28.0%, Validation Accuracy:   9.5%
+Iteration:   8410, Training Accuracy:  16.0%, Validation Accuracy:   9.3%
+Iteration:   8420, Training Accuracy:  14.0%, Validation Accuracy:   9.3%
+Iteration:   8430, Training Accuracy:  14.0%, Validation Accuracy:   9.1%
+Iteration:   8440, Training Accuracy:  14.0%, Validation Accuracy:   9.4%
+Iteration:   8450, Training Accuracy:  26.0%, Validation Accuracy:   9.1%
+Iteration:   8460, Training Accuracy:  16.0%, Validation Accuracy:   9.1%
+Iteration:   8470, Training Accuracy:  18.0%, Validation Accuracy:   8.9%
+Iteration:   8480, Training Accuracy:  14.0%, Validation Accuracy:   8.9%
+Iteration:   8490, Training Accuracy:  28.0%, Validation Accuracy:   8.7%
+Iteration:   8500, Training Accuracy:  20.0%, Validation Accuracy:   8.8%
+Iteration:   8510, Training Accuracy:  16.0%, Validation Accuracy:   9.2%
+Iteration:   8520, Training Accuracy:  26.0%, Validation Accuracy:   8.8%
+Iteration:   8530, Training Accuracy:  20.0%, Validation Accuracy:   9.0%
+Iteration:   8540, Training Accuracy:  34.0%, Validation Accuracy:   9.1%
+Iteration:   8550, Training Accuracy:  18.0%, Validation Accuracy:   8.7%
+Iteration:   8560, Training Accuracy:  22.0%, Validation Accuracy:   8.9%
+Iteration:   8570, Training Accuracy:  14.0%, Validation Accuracy:   9.0%
+Iteration:   8580, Training Accuracy:  24.0%, Validation Accuracy:   9.0%
+Iteration:   8590, Training Accuracy:  24.0%, Validation Accuracy:   8.7%
+Iteration:   8600, Training Accuracy:  24.0%, Validation Accuracy:   9.0%
+Iteration:   8610, Training Accuracy:  28.0%, Validation Accuracy:   9.0%
+Iteration:   8620, Training Accuracy:  20.0%, Validation Accuracy:   8.7%
+Iteration:   8630, Training Accuracy:  24.0%, Validation Accuracy:   9.0%
+Iteration:   8640, Training Accuracy:  24.0%, Validation Accuracy:   8.9%
+Iteration:   8650, Training Accuracy:   8.0%, Validation Accuracy:   8.6%
+Iteration:   8660, Training Accuracy:  30.0%, Validation Accuracy:   8.7%
+Iteration:   8670, Training Accuracy:  26.0%, Validation Accuracy:   9.4%
+Iteration:   8680, Training Accuracy:  16.0%, Validation Accuracy:   9.3%
+Iteration:   8690, Training Accuracy:  14.0%, Validation Accuracy:   9.3%
+Iteration:   8700, Training Accuracy:  20.0%, Validation Accuracy:   9.1%
+Iteration:   8710, Training Accuracy:  14.0%, Validation Accuracy:   9.1%
+Iteration:   8720, Training Accuracy:  10.0%, Validation Accuracy:   9.4%
+Iteration:   8730, Training Accuracy:  26.0%, Validation Accuracy:   8.9%
+Iteration:   8740, Training Accuracy:  26.0%, Validation Accuracy:   9.0%
+Iteration:   8750, Training Accuracy:  14.0%, Validation Accuracy:   9.2%
+Iteration:   8760, Training Accuracy:  28.0%, Validation Accuracy:   9.1%
+Iteration:   8770, Training Accuracy:  12.0%, Validation Accuracy:   9.2%
+Iteration:   8780, Training Accuracy:  22.0%, Validation Accuracy:   9.1%
+Iteration:   8790, Training Accuracy:  18.0%, Validation Accuracy:   9.1%
+Iteration:   8800, Training Accuracy:  16.0%, Validation Accuracy:   9.3%
+Iteration:   8810, Training Accuracy:  22.0%, Validation Accuracy:   9.0%
+Iteration:   8820, Training Accuracy:  28.0%, Validation Accuracy:   8.8%
+Iteration:   8830, Training Accuracy:  10.0%, Validation Accuracy:   9.1%
+Iteration:   8840, Training Accuracy:  30.0%, Validation Accuracy:   9.2%
+Iteration:   8850, Training Accuracy:  20.0%, Validation Accuracy:   9.6%
+Iteration:   8860, Training Accuracy:  14.0%, Validation Accuracy:   9.3%
+Iteration:   8870, Training Accuracy:  24.0%, Validation Accuracy:   8.9%
+Iteration:   8880, Training Accuracy:  30.0%, Validation Accuracy:   9.1%
+Iteration:   8890, Training Accuracy:  20.0%, Validation Accuracy:   8.8%
+Iteration:   8900, Training Accuracy:  30.0%, Validation Accuracy:   9.4%
+Iteration:   8910, Training Accuracy:  20.0%, Validation Accuracy:   9.1%
+Iteration:   8920, Training Accuracy:  12.0%, Validation Accuracy:   8.9%
+Iteration:   8930, Training Accuracy:  22.0%, Validation Accuracy:   8.8%
+Iteration:   8940, Training Accuracy:  32.0%, Validation Accuracy:   9.1%
+Iteration:   8950, Training Accuracy:  12.0%, Validation Accuracy:   9.1%
+Iteration:   8960, Training Accuracy:  20.0%, Validation Accuracy:   9.0%
+Iteration:   8970, Training Accuracy:  18.0%, Validation Accuracy:   8.9%
+Iteration:   8980, Training Accuracy:  18.0%, Validation Accuracy:   8.9%
+Iteration:   8990, Training Accuracy:  26.0%, Validation Accuracy:   9.3%
+Iteration:   9000, Training Accuracy:  12.0%, Validation Accuracy:   9.0%
+Iteration:   9010, Training Accuracy:  22.0%, Validation Accuracy:   9.0%
+Iteration:   9020, Training Accuracy:  16.0%, Validation Accuracy:   9.3%
+Iteration:   9030, Training Accuracy:  26.0%, Validation Accuracy:   9.2%
+Iteration:   9040, Training Accuracy:  22.0%, Validation Accuracy:   9.2%
+Iteration:   9050, Training Accuracy:  20.0%, Validation Accuracy:   9.0%
+Iteration:   9060, Training Accuracy:  22.0%, Validation Accuracy:   9.3%
+Iteration:   9070, Training Accuracy:  16.0%, Validation Accuracy:   9.1%
+Iteration:   9080, Training Accuracy:  18.0%, Validation Accuracy:   9.4%
+Iteration:   9090, Training Accuracy:  24.0%, Validation Accuracy:   9.2%
+Iteration:   9100, Training Accuracy:  30.0%, Validation Accuracy:   9.1%
+Iteration:   9110, Training Accuracy:  14.0%, Validation Accuracy:   9.0%
+Iteration:   9120, Training Accuracy:  34.0%, Validation Accuracy:   9.3%
+Iteration:   9130, Training Accuracy:  16.0%, Validation Accuracy:   9.1%
+Iteration:   9140, Training Accuracy:  12.0%, Validation Accuracy:   8.7%
+Iteration:   9150, Training Accuracy:  32.0%, Validation Accuracy:   9.0%
+Iteration:   9160, Training Accuracy:  34.0%, Validation Accuracy:   8.7%
+Iteration:   9170, Training Accuracy:  28.0%, Validation Accuracy:   9.1%
+Iteration:   9180, Training Accuracy:  26.0%, Validation Accuracy:   9.2%
+Iteration:   9190, Training Accuracy:  28.0%, Validation Accuracy:   9.1%
+Iteration:   9200, Training Accuracy:  20.0%, Validation Accuracy:   9.2%
+Iteration:   9210, Training Accuracy:  26.0%, Validation Accuracy:   9.1%
+Iteration:   9220, Training Accuracy:  20.0%, Validation Accuracy:   9.1%
+Iteration:   9230, Training Accuracy:  30.0%, Validation Accuracy:   9.4%
+Iteration:   9240, Training Accuracy:  18.0%, Validation Accuracy:   8.9%
+Iteration:   9250, Training Accuracy:  18.0%, Validation Accuracy:   9.1%
+Iteration:   9260, Training Accuracy:  28.0%, Validation Accuracy:   9.2%
+Iteration:   9270, Training Accuracy:  28.0%, Validation Accuracy:   9.5%
+Iteration:   9280, Training Accuracy:  18.0%, Validation Accuracy:   8.9%
+Iteration:   9290, Training Accuracy:  20.0%, Validation Accuracy:   9.9%
+Iteration:   9300, Training Accuracy:  24.0%, Validation Accuracy:   9.1%
+Iteration:   9310, Training Accuracy:  24.0%, Validation Accuracy:   9.6%
+Iteration:   9320, Training Accuracy:  18.0%, Validation Accuracy:   9.4%
+Iteration:   9330, Training Accuracy:  12.0%, Validation Accuracy:   9.1%
+Iteration:   9340, Training Accuracy:  32.0%, Validation Accuracy:   9.1%
+Iteration:   9350, Training Accuracy:  20.0%, Validation Accuracy:   9.0%
+Iteration:   9360, Training Accuracy:  20.0%, Validation Accuracy:   9.1%
+Iteration:   9370, Training Accuracy:  32.0%, Validation Accuracy:   9.1%
+Iteration:   9380, Training Accuracy:  20.0%, Validation Accuracy:   9.2%
+Iteration:   9390, Training Accuracy:  34.0%, Validation Accuracy:   9.2%
+Iteration:   9400, Training Accuracy:  30.0%, Validation Accuracy:   9.3%
+Iteration:   9410, Training Accuracy:  28.0%, Validation Accuracy:   9.0%
+Iteration:   9420, Training Accuracy:  26.0%, Validation Accuracy:   9.1%
+Iteration:   9430, Training Accuracy:  20.0%, Validation Accuracy:   9.1%
+Iteration:   9440, Training Accuracy:  16.0%, Validation Accuracy:   9.2%
+Iteration:   9450, Training Accuracy:  28.0%, Validation Accuracy:   9.3%
+Iteration:   9460, Training Accuracy:  22.0%, Validation Accuracy:   9.7%
+Iteration:   9470, Training Accuracy:  28.0%, Validation Accuracy:   9.2%
+Iteration:   9480, Training Accuracy:  28.0%, Validation Accuracy:   9.1%
+Iteration:   9490, Training Accuracy:  12.0%, Validation Accuracy:   9.3%
+Iteration:   9500, Training Accuracy:  26.0%, Validation Accuracy:   9.4%
+Iteration:   9510, Training Accuracy:  16.0%, Validation Accuracy:   9.0%
+Iteration:   9520, Training Accuracy:  22.0%, Validation Accuracy:   9.2%
+Iteration:   9530, Training Accuracy:  28.0%, Validation Accuracy:   9.1%
+Iteration:   9540, Training Accuracy:  18.0%, Validation Accuracy:   9.3%
+Iteration:   9550, Training Accuracy:  24.0%, Validation Accuracy:   9.3%
+Iteration:   9560, Training Accuracy:  22.0%, Validation Accuracy:   9.3%
+Iteration:   9570, Training Accuracy:  24.0%, Validation Accuracy:   9.2%
+Iteration:   9580, Training Accuracy:  16.0%, Validation Accuracy:   9.2%
+Iteration:   9590, Training Accuracy:  28.0%, Validation Accuracy:   9.3%
+Iteration:   9600, Training Accuracy:  36.0%, Validation Accuracy:   9.4%
+Iteration:   9610, Training Accuracy:  20.0%, Validation Accuracy:   9.3%
+Iteration:   9620, Training Accuracy:  30.0%, Validation Accuracy:   9.0%
+Iteration:   9630, Training Accuracy:  24.0%, Validation Accuracy:   8.9%
+Iteration:   9640, Training Accuracy:  26.0%, Validation Accuracy:   9.4%
+Iteration:   9650, Training Accuracy:  18.0%, Validation Accuracy:   9.2%
+Iteration:   9660, Training Accuracy:  20.0%, Validation Accuracy:   9.2%
+Iteration:   9670, Training Accuracy:  30.0%, Validation Accuracy:   9.5%
+Iteration:   9680, Training Accuracy:  20.0%, Validation Accuracy:   9.1%
+Iteration:   9690, Training Accuracy:  24.0%, Validation Accuracy:   9.3%
+Iteration:   9700, Training Accuracy:  28.0%, Validation Accuracy:   9.5%
+Iteration:   9710, Training Accuracy:  16.0%, Validation Accuracy:   9.4%
+Iteration:   9720, Training Accuracy:  28.0%, Validation Accuracy:   9.1%
+Iteration:   9730, Training Accuracy:  28.0%, Validation Accuracy:   9.0%
+Iteration:   9740, Training Accuracy:  22.0%, Validation Accuracy:   9.1%
+Iteration:   9750, Training Accuracy:  20.0%, Validation Accuracy:   9.4%
+Iteration:   9760, Training Accuracy:  28.0%, Validation Accuracy:   9.4%
+Iteration:   9770, Training Accuracy:  36.0%, Validation Accuracy:   9.4%
+Iteration:   9780, Training Accuracy:  20.0%, Validation Accuracy:  10.1%
+Iteration:   9790, Training Accuracy:  22.0%, Validation Accuracy:   9.2%
+Iteration:   9800, Training Accuracy:  12.0%, Validation Accuracy:   9.0%
+Iteration:   9810, Training Accuracy:  16.0%, Validation Accuracy:   9.7%
+Iteration:   9820, Training Accuracy:  30.0%, Validation Accuracy:   9.3%
+Iteration:   9830, Training Accuracy:  18.0%, Validation Accuracy:   9.6%
+Iteration:   9840, Training Accuracy:  20.0%, Validation Accuracy:   9.3%
+Iteration:   9850, Training Accuracy:  20.0%, Validation Accuracy:   9.3%
+Iteration:   9860, Training Accuracy:  28.0%, Validation Accuracy:   9.6%
+Iteration:   9870, Training Accuracy:  28.0%, Validation Accuracy:   9.3%
+Iteration:   9880, Training Accuracy:  22.0%, Validation Accuracy:   9.4%
+Iteration:   9890, Training Accuracy:  30.0%, Validation Accuracy:   9.7%
+Iteration:   9900, Training Accuracy:  34.0%, Validation Accuracy:   9.6%
+Iteration:   9910, Training Accuracy:  14.0%, Validation Accuracy:   9.5%
+Iteration:   9920, Training Accuracy:  20.0%, Validation Accuracy:   9.7%
+Iteration:   9930, Training Accuracy:  34.0%, Validation Accuracy:   9.5%
+Iteration:   9940, Training Accuracy:  32.0%, Validation Accuracy:   9.5%
+Iteration:   9950, Training Accuracy:  24.0%, Validation Accuracy:   9.4%
+Iteration:   9960, Training Accuracy:  26.0%, Validation Accuracy:   9.5%
+Iteration:   9970, Training Accuracy:  20.0%, Validation Accuracy:   9.6%
+Iteration:   9980, Training Accuracy:  14.0%, Validation Accuracy:   9.8%
+Iteration:   9990, Training Accuracy:  28.0%, Validation Accuracy:   9.7%
+Iteration:  10000, Training Accuracy:  18.0%, Validation Accuracy:   9.5%
+Time usage: 1:06:20
