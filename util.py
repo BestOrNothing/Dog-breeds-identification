@@ -17,6 +17,8 @@ def rot_aug(input_data):
     rot1 = np.rot90(input_data, axes=[-3,-2])
     rot2 = np.rot90(rot1, axes=[-3,-2])
     rot3 = np.rot90(rot2, axes=[-3,-2])
+    ret = np.vstack([input_data, rot1, rot2, rot3])
+    return ret
 
 def expand_to_times(input_data, times):
     ret = input_data
