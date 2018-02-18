@@ -1,0 +1,87 @@
+                                 id             breed
+0  000bec180eb18c7604dcecc8fe0dba07       boston_bull
+1  001513dfcb2ffafc82cccf4d8bbaba97             dingo
+2  001cdf01b096e06d78e9e5112d419397          pekinese
+3  00214f311d5d2247d5dfe4fe24b2303d          bluetick
+4  0021f9ceb3235effd7fcde7f7538ed62  golden_retriever
+scottish_deerhound      126
+maltese_dog             117
+afghan_hound            116
+entlebucher             115
+bernese_mountain_dog    114
+Name: breed, dtype: int64
+(120,)
+(10222, 128, 128, 3)
+(10222, 120)
+(24531, 128, 128, 3)
+(2045, 128, 128, 3)
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d_1 (Conv2D)            (None, 128, 128, 32)      2432      
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 64, 64, 32)        0         
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 64, 64, 64)        32832     
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 32, 32, 64)        0         
+_________________________________________________________________
+conv2d_3 (Conv2D)            (None, 32, 32, 128)       73856     
+_________________________________________________________________
+max_pooling2d_3 (MaxPooling2 (None, 16, 16, 128)       0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 16, 16, 128)       0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 32768)             0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 500)               16384500  
+_________________________________________________________________
+dropout_2 (Dropout)          (None, 500)               0         
+_________________________________________________________________
+dense_2 (Dense)              (None, 120)               60120     
+=================================================================
+Total params: 16,553,740
+Trainable params: 16,553,740
+Non-trainable params: 0
+_________________________________________________________________
+Train on 24531 samples, validate on 2045 samples
+Epoch 1/20
+ - 48s - loss: 4.7284 - acc: 0.0185 - val_loss: 4.5556 - val_acc: 0.0328
+Epoch 2/20
+ - 37s - loss: 4.3053 - acc: 0.0582 - val_loss: 4.2694 - val_acc: 0.0694
+Epoch 3/20
+ - 36s - loss: 3.9150 - acc: 0.1114 - val_loss: 4.2321 - val_acc: 0.0738
+Epoch 4/20
+ - 36s - loss: 3.4961 - acc: 0.1763 - val_loss: 4.2520 - val_acc: 0.0792
+Epoch 5/20
+ - 37s - loss: 3.0607 - acc: 0.2532 - val_loss: 4.3436 - val_acc: 0.0851
+Epoch 6/20
+ - 36s - loss: 2.6262 - acc: 0.3423 - val_loss: 4.4526 - val_acc: 0.0782
+Epoch 7/20
+ - 36s - loss: 2.2154 - acc: 0.4272 - val_loss: 4.6033 - val_acc: 0.0900
+Epoch 8/20
+ - 37s - loss: 1.8937 - acc: 0.4975 - val_loss: 4.7348 - val_acc: 0.0836
+Epoch 9/20
+ - 37s - loss: 1.6250 - acc: 0.5589 - val_loss: 4.9343 - val_acc: 0.0812
+Epoch 10/20
+ - 36s - loss: 1.4457 - acc: 0.6060 - val_loss: 5.0955 - val_acc: 0.0866
+Epoch 11/20
+ - 37s - loss: 1.2479 - acc: 0.6511 - val_loss: 5.2120 - val_acc: 0.0822
+Epoch 12/20
+ - 36s - loss: 1.1429 - acc: 0.6768 - val_loss: 5.3028 - val_acc: 0.0875
+Epoch 13/20
+ - 36s - loss: 1.0314 - acc: 0.7051 - val_loss: 5.4169 - val_acc: 0.0841
+Epoch 14/20
+ - 37s - loss: 0.9421 - acc: 0.7293 - val_loss: 5.4352 - val_acc: 0.0875
+Epoch 15/20
+ - 36s - loss: 0.8803 - acc: 0.7442 - val_loss: 5.4918 - val_acc: 0.0895
+Epoch 16/20
+ - 36s - loss: 0.8090 - acc: 0.7693 - val_loss: 5.5587 - val_acc: 0.0880
+Epoch 17/20
+ - 37s - loss: 0.7601 - acc: 0.7785 - val_loss: 5.7056 - val_acc: 0.0870
+Epoch 18/20
+ - 36s - loss: 0.7305 - acc: 0.7917 - val_loss: 5.6581 - val_acc: 0.0768
+Epoch 19/20
+ - 37s - loss: 0.6824 - acc: 0.8011 - val_loss: 5.9626 - val_acc: 0.0812
+Epoch 20/20
+ - 37s - loss: 0.6268 - acc: 0.8153 - val_loss: 5.9336 - val_acc: 0.0856
