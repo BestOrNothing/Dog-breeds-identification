@@ -1,4 +1,5 @@
 import numpy as np
+import tensorflow as tf
 
 def expand_to_times(input_data, times):
     ret = input_data
@@ -31,6 +32,7 @@ def rot_aug(input_data, label):
 def central_scale_images(X_imgs, scales):
     # Various settings needed for Tensorflow operation
     boxes = np.zeros((len(scales), 4), dtype = np.float32)
+    IMAGE_SIZE = 128
     for index, scale in enumerate(scales):
         x1 = y1 = 0.5 - 0.5 * scale # To scale centrally
         x2 = y2 = 0.5 + 0.5 * scale
@@ -53,3 +55,10 @@ def central_scale_images(X_imgs, scales):
     
     X_scale_data = np.array(X_scale_data, dtype = np.float32)
     return X_scale_data
+
+def scale_aug(input_data, label):
+    scales = [0.9, 0.75]
+    ret_x = central_scale_images(input_data, scales)
+    ret_x = np.vstack([input_data, ret_x])
+    ret_label = np.vstack([label, np.repeat(label, len(scales), axis=0)])
+    return [ret_x, ret_label]
