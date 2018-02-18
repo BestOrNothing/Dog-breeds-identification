@@ -1,4 +1,8 @@
-
+drop = False
+flip = False
+rot = False
+scale = False
+nb_epochs = 20
 # coding: utf-8
 
 # **This kernel is created to show the standard step-by-step process in handling image data. However, given the time limit of an hour, the kernel can only reach a low validation accuracy. Another way  of trainning the model from scratch is to run the script on a very powerful computer or using cloud computing. If you want to save time and computational power, you can also pre-process the data in the same manner and use [ImageNet pre-trained models](https://www.pyimagesearch.com/2017/03/20/imagenet-vggnet-resnet-inception-xception-keras/). Now let's begin and hope you enjoy it. **
@@ -7,12 +11,16 @@
 
 # In[1]:
 
-
+from util import flip_aug
+from util import rot_aug
+from util import scale_aug
+from util import central_scale_images
 import os
 import cv2 # image handling
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 from tqdm import tqdm
+import tensorflow as tf
 
 import sklearn
 from sklearn.cross_validation import train_test_split
@@ -49,7 +57,7 @@ one_hot_labels = np.asarray(one_hot)
 
 img_rows=128
 img_cols=128
-num_channel=1# 3 colour channes
+num_channel=3 # 3 colour channes
 
 
 # **Testing on a single image, first read in the image file in graysalce, then resize it**
@@ -81,7 +89,7 @@ y_feature = []
 
 i = 0 # initialisation
 for f, img in tqdm(lables.values): # f for format ,jpg
-    train_img = cv2.imread('data/train/{}.jpg'.format(f),0)
+    train_img = cv2.imread('data/train/{}.jpg'.format(f))
     label = one_hot_labels[i]
     train_img_resize = cv2.resize(train_img, (img_rows, img_cols)) 
     x_feature.append(train_img_resize)
@@ -95,8 +103,6 @@ for f, img in tqdm(lables.values): # f for format ,jpg
 
 
 x_train_data = np.array(x_feature, np.float32) / 255.   # /= 255 for normolisation
-print (x_train_data.shape)
-x_train_data = np.expand_dims(x_train_data, axis = 3)
 print (x_train_data.shape)
 
 
@@ -113,6 +119,12 @@ print (y_train_data.shape)
 
 
 x_train, x_val, y_train, y_val = train_test_split(x_train_data, y_train_data, test_size=0.2, random_state=2)
+if flip:
+    x_train, y_train = flip_aug(x_train, y_train)
+if rot:
+    x_train, y_train = rot_aug(x_train, y_train)
+if scale:
+    x_train, y_train = scale_aug(x_train, y_train)
 print (x_train.shape)
 print (x_val.shape)
 
@@ -181,16 +193,22 @@ model = Sequential()
 
 
 # retifier ensure the non-linearity in the processing 
-model.add(Convolution2D (filters = 64, kernel_size = (4,4),padding = 'Same', 
+model.add(Convolution2D (filters = 32, kernel_size = (5,5),padding = 'Same', 
                          activation ='relu', input_shape = (img_rows, img_cols, num_channel))) 
 model.add(MaxPooling2D(pool_size=(2,2)))
 model.add(Convolution2D (filters = 64, kernel_size = (4,4),padding = 'Same', 
                          activation ='relu')) 
 model.add(MaxPooling2D(pool_size=(2,2)))
-
+model.add(Convolution2D (filters = 128, kernel_size = (3,3),padding = 'Same',
+                                                  activation ='relu'))
+model.add(MaxPooling2D(pool_size=(2,2)))
+if drop:
+    model.add(Dropout(0.5))
 model.add(Flatten()) 
 # fully connected ANN 
-model.add(Dense(units = 120, activation = 'relu')) 
+model.add(Dense(units = 500, activation = 'relu'))
+if drop:
+    model.add(Dropout(0.5))
 # output layer
 model.add(Dense(units = 120, activation = 'softmax')) 
 
@@ -210,14 +228,17 @@ model.summary()
 
 
 batch_size = 128 
-nb_epochs = 10
+
 history = model.fit(x_train, y_train,
                     batch_size=batch_size,
                     epochs=nb_epochs,
                     verbose=2, 
                     validation_data=(x_val, y_val),
                     initial_epoch=0)
-
+acc_train = np.array(history.history['acc'])
+acc_valid = np.array(history.history['val_acc'])
+np.save('acc_train', acc_train)
+np.save('acc_valid', acc_valid)
 
 # **Plot the loss and accuracy curves for training and validation**
 
