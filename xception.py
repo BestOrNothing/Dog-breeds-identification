@@ -51,8 +51,18 @@ x = Dense(units=train_generator.num_class,
 model = Model(inputs=net.input,outputs=x)
 model.compile(optimizer='adam', loss='categorical_crossentropy', 
               metrics=['accuracy'])
-model.fit_generator(train_generator, epochs=1,
+history = model.fit_generator(train_generator, epochs=1,
                     steps_per_epoch=train_generator.n / batch_size,
                     validation_data=validation_generator,
                     validation_steps=validation_generator.n / batch_size,
                     verbose=2)
+
+train_acc = history.history['acc']
+train_loss = history.history['loss']
+valid_acc = history.hitory['val_acc']
+valid_loss = history.history['val_loss']
+
+np.save('train_acc', train_acc)
+np.save('train_loss', train_loss)
+np.save('valid_acc', valid_acc)
+np.save('valid_loss', valid_loss)
