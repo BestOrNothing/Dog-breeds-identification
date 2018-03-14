@@ -51,7 +51,7 @@ x = Dense(units=train_generator.num_class,
 model = Model(inputs=net.input,outputs=x)
 model.compile(optimizer='adam', loss='categorical_crossentropy', 
               metrics=['accuracy'])
-history = model.fit_generator(train_generator, epochs=1,
+history = model.fit_generator(train_generator, epochs=10,
                     steps_per_epoch=train_generator.n / batch_size,
                     validation_data=validation_generator,
                     validation_steps=validation_generator.n / batch_size,
