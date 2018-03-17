@@ -46,7 +46,7 @@ net = Xception(include_top=False,
                  pooling='max'
                  )
 x = net.output
-x = Dense(units=train_generator.num_class,
+x = Dense(units=train_generator.num_classes,
                 activation='softmax')(x)
 model = Model(inputs=net.input,outputs=x)
 model.compile(optimizer='adam', loss='categorical_crossentropy', 
